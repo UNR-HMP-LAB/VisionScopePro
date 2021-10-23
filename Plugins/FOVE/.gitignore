@@ -1,0 +1,10 @@
+/Binaries/**/*.pdb
+/Binaries/**/*Debug*
+/Binaries/**/*.modules
+/Binaries/**/UE4*
+/Binaries/Mac
+/Binaries/Linux
+**Thumbs.db
+.DS_Store
+Intermediate/*
+/Intermediate/

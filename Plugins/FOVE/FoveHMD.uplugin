@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "0.3",
+	"FriendlyName": "FoveHMD",
+	"Description": "FoveHMD is an implementation of the Fove client in UE4",
+	"Category": "Virtual Reality",
+	"CreatedBy": "FOVE, Inc.",
+	"CreatedByURL": "https://fove-inc.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "FoveHMD",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"LinuxAArch64"
+			]
+		}
+	]
+}
