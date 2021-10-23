@@ -11,7 +11,7 @@ ALightController::ALightController()
 
 }
 
-void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights, bool do_inc)
+void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights, bool do_inc, float dropoff=10)
 {
 	UMaterialInstanceDynamic* mat;
 	for (int32 i = 0; i < lights.Num(); i++) 
@@ -19,9 +19,20 @@ void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights, bool 
 		mat = lights[i]->GetStaticMeshComponent()->CreateAndSetMaterialInstanceDynamic(0);
 		float prev_intensity;
 		mat->GetScalarParameterValue(TEXT("intensity"), prev_intensity);
-		if(do_inc) mat->SetScalarParameterValue(TEXT("intensity"), prev_intensity*10);
-		else mat->SetScalarParameterValue(TEXT("intensity"), prev_intensity / 10);
+		if(do_inc) mat->SetScalarParameterValue(TEXT("intensity"), prev_intensity*dropoff);
+		else mat->SetScalarParameterValue(TEXT("intensity"), prev_intensity / dropoff);
 	}
+}
+
+void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights, float light_duration, float dark_duration, float dropoff)
+{
+	FTimerHandle MemberTimerHandle;
+	FTimerDelegate MemberTimerDelegate;
+	MemberTimerDelegate.BindUFunction(this, FName("IncreaseLuminance"), lights, true, dropoff);
+
+	if (FFoveHMD* const hmd = FFoveHMD::Get()) return;
+
+	GetWorldTimerManager().SetTimer(MemberTimerHandle, MemberTimerDelegate, 1.0f, true, 2.0f);
 }
 
 // Called when the game starts or when spawned
@@ -35,6 +46,5 @@ void ALightController::BeginPlay()
 void ALightController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 

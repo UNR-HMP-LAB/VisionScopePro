@@ -470,7 +470,7 @@ public:
 		static void GetGazeScreenPosition(EFoveErrorCode& OutErrorCode, EFoveEye Eye, FVector2D& OutVector);
 
 	UFUNCTION(BlueprintCallable, Category = "FoveVR")
-		static void GetCombinedGazeRay(EFoveErrorCode& OutErrorCode, FVector& OutCombinedGazeRayOrigin, FVector& OutCombinedGayRayDirection);
+		static void GetCombinedGazeRay(EFoveErrorCode& OutErrorCode, FVector& OutCombinedGazeRayOrigin, FVector& OutCombinedGazeRayDirection);
 
 	UFUNCTION(BlueprintCallable, Category = "FoveVR")
 		static void GetCombinedGazeDepth(EFoveErrorCode& OutErrorCode, float& OutCombinedGazeDepth);

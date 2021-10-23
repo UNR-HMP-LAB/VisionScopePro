@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Materials/MaterialInstanceDynamic.h"
+#include "FoveHMD.h"
+#include "TimerManager.h"
 #include "Engine/StaticMeshActor.h"
 #include "LightController.generated.h"
 
@@ -20,11 +22,13 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Function")
-		void IncreaseLuminance(TArray<AStaticMeshActor*> lights, bool do_inc);
+		void IncreaseLuminance(TArray<AStaticMeshActor*> lights, bool do_inc, float dropoff);
+	
+	UFUNCTION(BlueprintCallable, Category = "Function")
+		void TestProtocol(TArray<AStaticMeshActor*> lights, float light_duration, float dark_duration, float dropoff);
 };
