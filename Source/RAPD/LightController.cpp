@@ -54,10 +54,10 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 {
 	FTimerDelegate LightTimerDelegate, DarkTimerDelegate;
 
-	while (FFoveHMD::Get()) {
+	/*while (FFoveHMD::Get()) {
 		hmd = FFoveHMD::Get();
 		hmd->IsEyeTrackingReady(eye_tracking_ready);
-	}
+	}*/
 
 	D_left_and_right.Empty();
 	repititions *= 2;
