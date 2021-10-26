@@ -48,7 +48,7 @@ public:
 	TArray<FString> CSV_file = {"TimeStamp,Intensity_Left,Pupil_Diameter_Left,Intensity_Right,Pupil_Diameter_Right"};
 	FString SavingLocation = "C:\\Users\\znasi\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";
 
-	TArray<float> current_intensity;
+	TArray<float> current_intensity = {0, 0};
 	bool eye_tracking_ready = false;
 
 	FFoveHMD* hmd;
