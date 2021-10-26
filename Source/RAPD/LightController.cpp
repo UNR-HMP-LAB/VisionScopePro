@@ -8,31 +8,119 @@ ALightController::ALightController()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 
-void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights, bool do_inc, float dropoff=10)
+void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 {
-	UMaterialInstanceDynamic* mat;
-	for (int32 i = 0; i < lights.Num(); i++) 
+	if (repititions <= 0)
 	{
-		mat = lights[i]->GetStaticMeshComponent()->CreateAndSetMaterialInstanceDynamic(0);
-		float prev_intensity;
-		mat->GetScalarParameterValue(TEXT("intensity"), prev_intensity);
-		if(do_inc) mat->SetScalarParameterValue(TEXT("intensity"), prev_intensity*dropoff);
-		else mat->SetScalarParameterValue(TEXT("intensity"), prev_intensity / dropoff);
+		GetWorldTimerManager().ClearTimer(LightTimerHandle);
+		return;
+	}
+	UMaterialInstanceDynamic* mat = D_left_and_right[repititions%2];
+	mat->GetScalarParameterValue(TEXT("intensity"), current_intensity[repititions%2]);
+	current_intensity[repititions%2] *= dropoff;
+	mat->SetScalarParameterValue(TEXT("intensity"), current_intensity[repititions % 2]);
+	for (int32 i = 0; i < lights.Num(); i++)
+	{
+		lights[i]->GetStaticMeshComponent()->SetMaterial(0, mat);
+	}
+	repititions--;
+}
+
+void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
+{
+	if (repititions <= 0)
+	{
+		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
+		FString tempstring = FDateTime().Now().ToString();
+		tempstring.Replace(TEXT("."), TEXT("_"));
+		SaveArrayText(SavingLocation, ID+"_"+tempstring+".csv", CSV_file, true);
+		return;
+	}
+	UMaterialInstanceDynamic* mat = UMaterialInstanceDynamic::Create(Dark_Material, this);
+	for (int32 i = 0; i < lights.Num(); i++)
+	{
+		lights[i]->GetStaticMeshComponent()->SetMaterial(0, mat);
 	}
 }
 
-void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights, float light_duration, float dark_duration, float dropoff)
+void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 {
-	FTimerHandle MemberTimerHandle;
-	FTimerDelegate MemberTimerDelegate;
-	MemberTimerDelegate.BindUFunction(this, FName("IncreaseLuminance"), lights, true, dropoff);
+	FTimerDelegate LightTimerDelegate, DarkTimerDelegate;
 
-	if (FFoveHMD* const hmd = FFoveHMD::Get()) return;
+	while (FFoveHMD::Get()) {
+		hmd = FFoveHMD::Get();
+		hmd->IsEyeTrackingReady(eye_tracking_ready);
+	}
 
-	GetWorldTimerManager().SetTimer(MemberTimerHandle, MemberTimerDelegate, 1.0f, true, 2.0f);
+	D_left_and_right.Empty();
+	repititions *= 2;
+
+	D_left_and_right.Add(UMaterialInstanceDynamic::Create(Left_and_right[0], this));
+	D_left_and_right[0]->SetScalarParameterValue(TEXT("intensity"), initial_light_intensity);
+	D_left_and_right.Add(UMaterialInstanceDynamic::Create(Left_and_right[1], this));
+	D_left_and_right[1]->SetScalarParameterValue(TEXT("intensity"), initial_light_intensity);
+
+	current_intensity = { initial_light_intensity , initial_light_intensity };
+
+	LightTimerDelegate.BindUFunction(this, FName("IncreaseLuminance"), lights);
+	DarkTimerDelegate.BindUFunction(this, FName("Darkness"), lights);
+
+	GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + dark_duration, true, 2.0f);
+	GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + dark_duration, true, 2.0f + light_duration);
+}
+
+bool ALightController::LoadTextFromFile(FString FileName, TArray<FString>& TextArray, FString& TextString)
+{
+
+	if (!FPlatformFileManager::Get().GetPlatformFile().FileExists(*FileName))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Could not Find File"));
+		return false;
+	}
+	else
+	{
+		// Convert filepath to character array and save to array
+		const TCHAR* FILEPATH = *FileName;
+		return FFileHelper::LoadFileToStringArray(TextArray, *FileName);
+		//return FFileHelper::LoadFileToString(SaveString, *FileName);
+	}
+}
+
+bool ALightController::SaveArrayText(FString SaveDirectory, FString FileName, TArray<FString> SaveText, bool AllowOverwriting = false)
+{
+	// Set complete file path
+	SaveDirectory += "\\";
+	SaveDirectory += FileName;
+
+	if (!AllowOverwriting)
+	{
+		if (FPlatformFileManager::Get().GetPlatformFile().FileExists(*SaveDirectory))
+		{
+			return false;
+		}
+	}
+
+	FPlatformFileManager::Get().GetPlatformFile().DeleteFile(*SaveDirectory);
+	FString FinalString = "";
+	for (FString& Each : SaveText)
+	{
+		FinalString += Each;
+		FinalString += LINE_TERMINATOR;
+	}
+
+	return FFileHelper::SaveStringToFile(FinalString, *SaveDirectory);
+
+}
+
+bool ALightController::DeleteTextFile(FString SaveDirectory, FString FileName)
+{
+	// Set complete file path
+	SaveDirectory += "\\";
+	SaveDirectory += FileName;
+
+	return FPlatformFileManager::Get().GetPlatformFile().DeleteFile(*SaveDirectory);
 }
 
 // Called when the game starts or when spawned
@@ -46,5 +134,17 @@ void ALightController::BeginPlay()
 void ALightController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	Elapsed_time += DeltaTime;
+	float l = -1.0f, r = -1.0f;
+	
+	if (hmd && eye_tracking_ready) {
+		hmd->GetPupilRadius(EFoveEye::Left, l);
+		hmd->GetPupilRadius(EFoveEye::Right, r);
+		FString TimeStamp = FString::SanitizeFloat(Elapsed_time), Intensity_Left = FString::SanitizeFloat(current_intensity[0]), \
+			Pupil_Diameter_Left = FString::SanitizeFloat(l), Intensity_Right = FString::SanitizeFloat(current_intensity[1]), \
+			Pupil_Diameter_Right = FString::SanitizeFloat(r);
+
+		CSV_file.Add(TimeStamp + "," + Intensity_Left + "," + Pupil_Diameter_Left + "," + Intensity_Right + "," + Pupil_Diameter_Right);
+	}
 }
 
