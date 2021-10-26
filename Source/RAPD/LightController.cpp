@@ -12,11 +12,17 @@ ALightController::ALightController()
 
 void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 {
+	if (repititions % 2 == 1) GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Right");
+	else GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Left");
+
 	if (repititions <= 0)
 	{
 		GetWorldTimerManager().ClearTimer(LightTimerHandle);
 		return;
 	}
+
+	if(eye_tracking_ready) GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, "Ready");
+
 	UMaterialInstanceDynamic* mat = D_left_and_right[repititions%2];
 	mat->GetScalarParameterValue(TEXT("intensity"), current_intensity[repititions%2]);
 	current_intensity[repititions%2] *= dropoff;
@@ -30,18 +36,17 @@ void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 
 void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 {
-	if (repititions <= 0)
-	{
-		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
-		FString tempstring = FDateTime().Now().ToString();
-		tempstring.Replace(TEXT("."), TEXT("_"));
-		SaveArrayText(SavingLocation, ID+"_"+tempstring+".csv", CSV_file, true);
-		return;
-	}
 	UMaterialInstanceDynamic* mat = UMaterialInstanceDynamic::Create(Dark_Material, this);
 	for (int32 i = 0; i < lights.Num(); i++)
 	{
 		lights[i]->GetStaticMeshComponent()->SetMaterial(0, mat);
+	}
+	if (repititions <= 0)
+	{
+		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
+		FString tempstring = FDateTime().Now().ToString();
+		SaveArrayText(SavingLocation, ID+"_"+tempstring+".csv", CSV_file, true);
+		return;
 	}
 }
 
@@ -67,8 +72,8 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 	LightTimerDelegate.BindUFunction(this, FName("IncreaseLuminance"), lights);
 	DarkTimerDelegate.BindUFunction(this, FName("Darkness"), lights);
 
-	GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + dark_duration, true, 2.0f);
-	GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + dark_duration, true, 2.0f + light_duration);
+	GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + dark_duration, true, 4.0f);
+	GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + dark_duration, true, 4.0f + light_duration);
 }
 
 bool ALightController::LoadTextFromFile(FString FileName, TArray<FString>& TextArray, FString& TextString)
@@ -136,15 +141,19 @@ void ALightController::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	Elapsed_time += DeltaTime;
 	float l = -1.0f, r = -1.0f;
+
+	FString TimeStamp = FString::SanitizeFloat(Elapsed_time), Intensity_Left = FString::SanitizeFloat(current_intensity[0]), \
+		Intensity_Right = FString::SanitizeFloat(current_intensity[1]);
+
+	FString Pupil_Diameter_Left = "", Pupil_Diameter_Right = "";
 	
 	if (hmd && eye_tracking_ready) {
 		hmd->GetPupilRadius(EFoveEye::Left, l);
 		hmd->GetPupilRadius(EFoveEye::Right, r);
-		FString TimeStamp = FString::SanitizeFloat(Elapsed_time), Intensity_Left = FString::SanitizeFloat(current_intensity[0]), \
-			Pupil_Diameter_Left = FString::SanitizeFloat(l), Intensity_Right = FString::SanitizeFloat(current_intensity[1]), \
-			Pupil_Diameter_Right = FString::SanitizeFloat(r);
-
-		CSV_file.Add(TimeStamp + "," + Intensity_Left + "," + Pupil_Diameter_Left + "," + Intensity_Right + "," + Pupil_Diameter_Right);
+		Pupil_Diameter_Left = FString::SanitizeFloat(l);
+		Pupil_Diameter_Right = FString::SanitizeFloat(r);		
 	}
+
+	CSV_file.Add(TimeStamp + "," + Intensity_Left + "," + Pupil_Diameter_Left + "," + Intensity_Right + "," + Pupil_Diameter_Right);
 }
 
