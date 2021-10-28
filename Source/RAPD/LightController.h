@@ -43,10 +43,16 @@ public:
 	float dark_duration;
 		
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties") 
-	float dropoff;
+	TArray<float> dropoff_left;
+
+	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	TArray<float> dropoff_right;
+
+	TArray<float> construct_full_presentation_sequence;
+	int32 position_in_sequence = -1;
 
 	TArray<FString> CSV_file = {"TimeStamp,Intensity_Left,Pupil_Diameter_Left,Intensity_Right,Pupil_Diameter_Right"};
-	FString SavingLocation = "C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"C:\\Users\\znasi\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";
+	FString SavingLocation = "E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
 
 	TArray<float> current_intensity = {0, 0};
 	bool eye_tracking_ready = false;

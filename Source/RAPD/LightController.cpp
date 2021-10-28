@@ -12,10 +12,7 @@ ALightController::ALightController()
 
 void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 {
-	if (repititions % 2 == 1) GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Right");
-	else GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Left");
-
-	if (repititions <= 0)
+	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
 		GetWorldTimerManager().ClearTimer(LightTimerHandle);
 		return;
@@ -23,15 +20,25 @@ void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 
 	if(eye_tracking_ready) GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, "Ready");
 
-	UMaterialInstanceDynamic* mat = D_left_and_right[repititions%2];
-	mat->GetScalarParameterValue(TEXT("intensity"), current_intensity[repititions%2]);
-	current_intensity[repititions%2] *= dropoff;
-	mat->SetScalarParameterValue(TEXT("intensity"), current_intensity[repititions % 2]);
+	UMaterialInstanceDynamic* mat;
+	float intensity = initial_light_intensity *construct_full_presentation_sequence[position_in_sequence];
+	
+	if (intensity > 0) {
+		mat = D_left_and_right[0];
+		current_intensity = { intensity, 0 };
+	}
+	else {
+		mat = D_left_and_right[1];
+		intensity = -intensity;
+		current_intensity = { 0, intensity };
+	}
+
+	mat->SetScalarParameterValue(TEXT("intensity"), intensity);
 	for (int32 i = 0; i < lights.Num(); i++)
 	{
 		lights[i]->GetStaticMeshComponent()->SetMaterial(0, mat);
 	}
-	repititions--;
+	position_in_sequence++;
 }
 
 void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
@@ -41,13 +48,14 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 	{
 		lights[i]->GetStaticMeshComponent()->SetMaterial(0, mat);
 	}
-	if (repititions <= 0)
+	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
 		FString tempstring = FDateTime().Now().ToString();
 		SaveArrayText(SavingLocation, ID+"_"+tempstring+".csv", CSV_file, true);
 		return;
 	}
+	current_intensity = { 0, 0 };
 }
 
 void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
@@ -60,7 +68,7 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 	}*/
 
 	D_left_and_right.Empty();
-	repititions *= 2;
+	current_intensity = {0, 0};
 
 	D_left_and_right.Add(UMaterialInstanceDynamic::Create(Left_and_right[0], this));
 	D_left_and_right[0]->SetScalarParameterValue(TEXT("intensity"), initial_light_intensity);
@@ -68,12 +76,22 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 	D_left_and_right[1]->SetScalarParameterValue(TEXT("intensity"), initial_light_intensity);
 
 	current_intensity = { initial_light_intensity , initial_light_intensity };
+	construct_full_presentation_sequence.Empty();
+
+	for (int32 i = 0; i < dropoff_left.Num(); i++) {
+		for (int32 j = 0; j < repititions; j++) {
+			construct_full_presentation_sequence.Add(-dropoff_right[i]);
+			construct_full_presentation_sequence.Add(dropoff_left[i]);
+		}
+	}
+
+	position_in_sequence = 0;
 
 	LightTimerDelegate.BindUFunction(this, FName("IncreaseLuminance"), lights);
 	DarkTimerDelegate.BindUFunction(this, FName("Darkness"), lights);
 
-	GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + dark_duration, true, 4.0f);
-	GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + dark_duration, true, 4.0f + light_duration);
+	GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + dark_duration, true, 5.0f);
+	GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + dark_duration, true, 5.0f + light_duration);
 }
 
 bool ALightController::LoadTextFromFile(FString FileName, TArray<FString>& TextArray, FString& TextString)
