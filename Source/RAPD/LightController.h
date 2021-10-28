@@ -46,7 +46,7 @@ public:
 	float dropoff;
 
 	TArray<FString> CSV_file = {"TimeStamp,Intensity_Left,Pupil_Diameter_Left,Intensity_Right,Pupil_Diameter_Right"};
-	FString SavingLocation = "C:\\Users\\znasi\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";
+	FString SavingLocation = "C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"C:\\Users\\znasi\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";
 
 	TArray<float> current_intensity = {0, 0};
 	bool eye_tracking_ready = false;
