@@ -12,37 +12,43 @@ ALightController::ALightController()
 
 void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 {
+	//GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::Red, FString::Printf(TEXT("Output: %d"), position_in_sequence));
 	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
+		GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::Red, FString::Printf(TEXT("Output: %d"), position_in_sequence));
 		GetWorldTimerManager().ClearTimer(LightTimerHandle);
+		if(dark_duration==0.0f) Darkness(lights);
 		return;
 	}
-
-	if(eye_tracking_ready) GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, "Ready");
 
 	UMaterialInstanceDynamic* mat;
 	float intensity = initial_light_intensity *construct_full_presentation_sequence[position_in_sequence];
 	
 	if (intensity > 0) {
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Light Left"));
 		mat = D_left_and_right[0];
 		current_intensity = { intensity, 0 };
 	}
 	else {
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Light Right"));
 		mat = D_left_and_right[1];
 		intensity = -intensity;
 		current_intensity = { 0, intensity };
 	}
 
 	mat->SetScalarParameterValue(TEXT("intensity"), intensity);
+	mat->SetVectorParameterValue(TEXT("Color"), color);
 	for (int32 i = 0; i < lights.Num(); i++)
 	{
 		lights[i]->GetStaticMeshComponent()->SetMaterial(0, mat);
 	}
+
 	position_in_sequence++;
 }
 
 void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 {
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Dark"));
 	UMaterialInstanceDynamic* mat = UMaterialInstanceDynamic::Create(Dark_Material, this);
 	for (int32 i = 0; i < lights.Num(); i++)
 	{
@@ -51,31 +57,36 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
-		FString tempstring = FDateTime().Now().ToString();
 		SaveArrayText(SavingLocation, ID+"_"+tempstring+".csv", CSV_file, true);
 		return;
 	}
 	current_intensity = { 0, 0 };
 }
 
+void ALightController::Start_calibration() {
+	eye_core = SRanipalEye_Core::Instance();
+	if(do_calibration) eye_core->LaunchEyeCalibration_(nullptr);
+	eye_tracking_ready = true;
+
+	if (!after_accommodation) {
+		FTimerDelegate EyeDelegate;
+		EyeDelegate.BindUFunction(this, FName("eyeTick"));
+		current_intensity = { 0 , 0 };
+		GetWorldTimerManager().SetTimer(EyeTimerHandle, EyeDelegate, .008, true, 0.0f);
+	}
+}
+
 void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 {
 	FTimerDelegate LightTimerDelegate, DarkTimerDelegate;
 
-	/*while (FFoveHMD::Get()) {
-		hmd = FFoveHMD::Get();
-		hmd->IsEyeTrackingReady(eye_tracking_ready);
-	}*/
-
 	D_left_and_right.Empty();
-	current_intensity = {0, 0};
 
 	D_left_and_right.Add(UMaterialInstanceDynamic::Create(Left_and_right[0], this));
 	D_left_and_right[0]->SetScalarParameterValue(TEXT("intensity"), initial_light_intensity);
 	D_left_and_right.Add(UMaterialInstanceDynamic::Create(Left_and_right[1], this));
 	D_left_and_right[1]->SetScalarParameterValue(TEXT("intensity"), initial_light_intensity);
 
-	current_intensity = { initial_light_intensity , initial_light_intensity };
 	construct_full_presentation_sequence.Empty();
 
 	for (int32 i = 0; i < dropoff_left.Num(); i++) {
@@ -89,9 +100,15 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 
 	LightTimerDelegate.BindUFunction(this, FName("IncreaseLuminance"), lights);
 	DarkTimerDelegate.BindUFunction(this, FName("Darkness"), lights);
-
-	GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + dark_duration, true, 5.0f);
-	GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + dark_duration, true, 5.0f + light_duration);
+	
+	if (after_accommodation) {
+		FTimerDelegate EyeDelegate;
+		EyeDelegate.BindUFunction(this, FName("eyeTick"));
+		current_intensity = { 0 , 0 };
+		GetWorldTimerManager().SetTimer(EyeTimerHandle, EyeDelegate, .008, true, 0.0f);
+	}
+	if(light_duration>0.0f) GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + dark_duration, true, start_time);
+	if(dark_duration>0.0f) GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + dark_duration, true, start_time + light_duration);
 }
 
 bool ALightController::LoadTextFromFile(FString FileName, TArray<FString>& TextArray, FString& TextString)
@@ -149,29 +166,37 @@ bool ALightController::DeleteTextFile(FString SaveDirectory, FString FileName)
 // Called when the game starts or when spawned
 void ALightController::BeginPlay()
 {
-	Super::BeginPlay();
-	
+	disaccommodation_ = disaccommodation;
+	Super::BeginPlay();	
 }
 
-// Called every frame
-void ALightController::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-	Elapsed_time += DeltaTime;
+void ALightController::eyeTick() {
+	Elapsed_time += .008;
 	float l = -1.0f, r = -1.0f;
 
 	FString TimeStamp = FString::SanitizeFloat(Elapsed_time), Intensity_Left = FString::SanitizeFloat(current_intensity[0]), \
 		Intensity_Right = FString::SanitizeFloat(current_intensity[1]);
 
 	FString Pupil_Diameter_Left = "", Pupil_Diameter_Right = "";
-	
-	if (hmd && eye_tracking_ready) {
-		hmd->GetPupilRadius(EFoveEye::Left, l);
-		hmd->GetPupilRadius(EFoveEye::Right, r);
-		Pupil_Diameter_Left = FString::SanitizeFloat(l);
-		Pupil_Diameter_Right = FString::SanitizeFloat(r);		
+
+	if (eye_tracking_ready) {
+		//hmd->GetPupilRadius(EFoveEye::Left, l);
+		//hmd->GetPupilRadius(EFoveEye::Right, r);
+		ViveSR::anipal::Eye::EyeData_v2 data;
+		int error = eye_core->GetEyeData_v2(&data);
+		//TimeStamp = FString::SanitizeFloat(data.timestamp);
+		Pupil_Diameter_Left = FString::SanitizeFloat(data.verbose_data.left.pupil_diameter_mm);
+		Pupil_Diameter_Right = FString::SanitizeFloat(data.verbose_data.right.pupil_diameter_mm);
+		//GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::White, FString::Printf(TEXT("Output: %f"), data.verbose_data.left.pupil_diameter_mm));
 	}
 
 	CSV_file.Add(TimeStamp + "," + Intensity_Left + "," + Pupil_Diameter_Left + "," + Intensity_Right + "," + Pupil_Diameter_Right);
+	//SaveArrayText(SavingLocation, ID + "_" + tempstring + ".csv", CSV_file, true);
+}
+
+// Called every frame
+void ALightController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
 }
 

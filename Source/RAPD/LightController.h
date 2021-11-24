@@ -8,7 +8,7 @@
 #include "Misc/DateTime.h"
 #include "Misc/FileHelper.h"
 #include "HAL/PlatformFilemanager.h"
-#include "FoveHMD.h"
+#include "SRanipalEye_Core.h"
 #include "TimerManager.h"
 #include "Engine/StaticMeshActor.h"
 #include "LightController.generated.h"
@@ -30,8 +30,23 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Materials")
 	UMaterial* Dark_Material;
 
+	UPROPERTY(EditAnywhere, Category = "Materials")
+	FLinearColor color;
+
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
 	int32 repititions;
+
+	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	bool do_calibration;
+
+	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	bool after_accommodation;
+
+	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	bool disaccommodation;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
+	bool disaccommodation_;
 
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
 	float initial_light_intensity;
@@ -41,6 +56,9 @@ public:
 	
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
 	float dark_duration;
+
+	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	float start_time;
 		
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties") 
 	TArray<float> dropoff_left;
@@ -55,13 +73,16 @@ public:
 	FString SavingLocation = "E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
 
 	TArray<float> current_intensity = {0, 0};
-	bool eye_tracking_ready = false;
 
-	FFoveHMD* hmd;
+	FString tempstring = FDateTime().Now().ToString();
+	
+	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
+	bool eye_tracking_ready = false;
+	SRanipalEye_Core* eye_core;
 	
 	UPROPERTY(EditAnywhere, Category = "Subject_ID")
 	FString ID;
-	FTimerHandle LightTimerHandle, DarkTimerHandle;
+	FTimerHandle LightTimerHandle, DarkTimerHandle, EyeTimerHandle;
 	float Elapsed_time = 0.0;
 
 protected:
@@ -88,4 +109,10 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Custom", meta = (Keywords = "Save"))
 		static bool DeleteTextFile(FString SaveDirectory, FString FileName);
+
+	UFUNCTION(BlueprintCallable, Category = "Custom", meta = (Keywords = "Start"))
+		void Start_calibration();
+
+	UFUNCTION(BlueprintCallable, Category = "Custom", meta = (Keywords = "Start"))
+		void eyeTick();
 };
