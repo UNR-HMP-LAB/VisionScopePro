@@ -69,6 +69,11 @@ public:
 	TArray<float> construct_full_presentation_sequence;
 	int32 position_in_sequence = -1;
 
+	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
+	TArray<FString> interval_list;
+	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	int32 current_interval_position = 0;
+
 	TArray<FString> CSV_file = {"TimeStamp,Intensity_Left,Pupil_Diameter_Left,Intensity_Right,Pupil_Diameter_Right"};
 	FString SavingLocation = "E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
 
@@ -102,7 +107,7 @@ public:
 		void TestProtocol(TArray<AStaticMeshActor*> lights);
 
 	UFUNCTION(BlueprintCallable, Category = "Custom", meta = (Keywords = "Load"))
-		static bool LoadTextFromFile(FString FileName, TArray<FString>& TextArray, FString& TextString);
+		static bool LoadTextFromFile(FString FileName, TArray<FString>& TextArray);
 
 	UFUNCTION(BlueprintCallable, Category = "Custom", meta = (Keywords = "Save"))
 		static bool SaveArrayText(FString SaveDirectory, FString FileName, TArray<FString> SaveText, bool AllowOverwriting);

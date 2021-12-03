@@ -57,7 +57,9 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
-		SaveArrayText(SavingLocation, ID+"_"+tempstring+".csv", CSV_file, true);
+		FString on_off = interval_list[current_interval_position];
+		on_off.Replace(TEXT(","), TEXT("_Off_"));
+		SaveArrayText(SavingLocation, ID+"_On_"+on_off+".csv", CSV_file, true);
 		return;
 	}
 	current_intensity = { 0, 0 };
@@ -111,7 +113,7 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 	if(dark_duration>0.0f) GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + dark_duration, true, start_time + light_duration);
 }
 
-bool ALightController::LoadTextFromFile(FString FileName, TArray<FString>& TextArray, FString& TextString)
+bool ALightController::LoadTextFromFile(FString FileName, TArray<FString>& TextArray)
 {
 
 	if (!FPlatformFileManager::Get().GetPlatformFile().FileExists(*FileName))
@@ -124,7 +126,6 @@ bool ALightController::LoadTextFromFile(FString FileName, TArray<FString>& TextA
 		// Convert filepath to character array and save to array
 		const TCHAR* FILEPATH = *FileName;
 		return FFileHelper::LoadFileToStringArray(TextArray, *FileName);
-		//return FFileHelper::LoadFileToString(SaveString, *FileName);
 	}
 }
 
@@ -167,6 +168,7 @@ bool ALightController::DeleteTextFile(FString SaveDirectory, FString FileName)
 void ALightController::BeginPlay()
 {
 	disaccommodation_ = disaccommodation;
+	LoadTextFromFile(SavingLocation + "\\intervals.csv", interval_list);
 	Super::BeginPlay();	
 }
 
@@ -193,6 +195,7 @@ void ALightController::eyeTick() {
 	CSV_file.Add(TimeStamp + "," + Intensity_Left + "," + Pupil_Diameter_Left + "," + Intensity_Right + "," + Pupil_Diameter_Right);
 	//SaveArrayText(SavingLocation, ID + "_" + tempstring + ".csv", CSV_file, true);
 }
+
 
 // Called every frame
 void ALightController::Tick(float DeltaTime)
