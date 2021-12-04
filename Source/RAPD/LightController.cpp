@@ -57,9 +57,7 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
-		FString on_off = interval_list[current_interval_position];
-		on_off.Replace(TEXT(","), TEXT("_Off_"));
-		SaveArrayText(SavingLocation, ID+"_On_"+on_off+".csv", CSV_file, true);
+		SaveArrayText(SavingLocation, ID+"_On_"+FString::SanitizeFloat(light_duration)+"_Off_"+FString::SanitizeFloat(dark_duration) +".csv", CSV_file, true);
 		return;
 	}
 	current_intensity = { 0, 0 };
