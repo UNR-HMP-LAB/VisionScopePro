@@ -38,6 +38,7 @@ void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 
 	mat->SetScalarParameterValue(TEXT("intensity"), intensity);
 	mat->SetVectorParameterValue(TEXT("Color"), color);
+
 	for (int32 i = 0; i < lights.Num(); i++)
 	{
 		lights[i]->GetStaticMeshComponent()->SetMaterial(0, mat);
@@ -57,7 +58,12 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
-		SaveArrayText(SavingLocation, ID+"_On_"+FString::SanitizeFloat(light_duration)+"_Off_"+FString::SanitizeFloat(dark_duration) +".csv", CSV_file, true);
+		if(dropoff_left[0] == dropoff_right[0])
+			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration) + "_Off_" + FString::SanitizeFloat(dark_duration) +"_B_" + FString::SanitizeFloat(dropoff_left[0]) + ".csv", CSV_file, true);
+		else if(dropoff_left[0] != 1.0f)
+			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration) + "_Off_" + FString::SanitizeFloat(dark_duration) +"_L"+ FString::SanitizeFloat(dropoff_left[0]) + ".csv", CSV_file, true);
+		else
+			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration) + "_Off_" + FString::SanitizeFloat(dark_duration) + "_R"+FString::SanitizeFloat(dropoff_right[0])+".csv", CSV_file, true);
 		return;
 	}
 	current_intensity = { 0, 0 };

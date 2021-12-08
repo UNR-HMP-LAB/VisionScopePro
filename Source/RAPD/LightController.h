@@ -87,6 +87,10 @@ public:
 	
 	UPROPERTY(EditAnywhere, Category = "Subject_ID")
 	FString ID;
+
+	UPROPERTY(EditAnywhere, Category = "Session_ID")
+	FString Session_ID;
+
 	FTimerHandle LightTimerHandle, DarkTimerHandle, EyeTimerHandle;
 	float Elapsed_time = 0.0;
 
