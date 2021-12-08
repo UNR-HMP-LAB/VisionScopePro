@@ -15,7 +15,7 @@ void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 	//GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::Red, FString::Printf(TEXT("Output: %d"), position_in_sequence));
 	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::Red, FString::Printf(TEXT("Output: %d"), position_in_sequence));
+		//GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::Red, FString::Printf(TEXT("Output: %d"), position_in_sequence));
 		GetWorldTimerManager().ClearTimer(LightTimerHandle);
 		if(dark_duration==0.0f) Darkness(lights);
 		return;
@@ -59,11 +59,11 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 	{
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
 		if(dropoff_left[0] == dropoff_right[0])
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration) + "_Off_" + FString::SanitizeFloat(dark_duration) +"_B_" + FString::SanitizeFloat(dropoff_left[0]) + ".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(dark_duration, 2) +"_B_" + FString::SanitizeFloat(dropoff_left[0], 2) + ".csv", CSV_file, true);
 		else if(dropoff_left[0] != 1.0f)
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration) + "_Off_" + FString::SanitizeFloat(dark_duration) +"_L"+ FString::SanitizeFloat(dropoff_left[0]) + ".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(dark_duration, 2) +"_L_"+ FString::SanitizeFloat(dropoff_left[0], 2) + ".csv", CSV_file, true);
 		else
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration) + "_Off_" + FString::SanitizeFloat(dark_duration) + "_R"+FString::SanitizeFloat(dropoff_right[0])+".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(dark_duration, 2) + "_R_"+FString::SanitizeFloat(dropoff_right[0], 2)+".csv", CSV_file, true);
 		return;
 	}
 	current_intensity = { 0, 0 };
@@ -122,7 +122,7 @@ bool ALightController::LoadTextFromFile(FString FileName, TArray<FString>& TextA
 
 	if (!FPlatformFileManager::Get().GetPlatformFile().FileExists(*FileName))
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Could not Find File"));
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Could not Find File"));
 		return false;
 	}
 	else
