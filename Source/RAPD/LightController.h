@@ -45,6 +45,9 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
 	bool disaccommodation;
 
+	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	bool alter;
+
 	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
 	bool disaccommodation_;
 
@@ -55,7 +58,10 @@ public:
 	float light_duration;
 	
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
-	float dark_duration;
+	float intermediate_dark_duration;
+
+	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	float pause_duration;
 
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
 	float start_time;
@@ -75,7 +81,7 @@ public:
 	int32 current_interval_position = 0;
 
 	TArray<FString> CSV_file = {"TimeStamp,Intensity_Left,Pupil_Diameter_Left,Intensity_Right,Pupil_Diameter_Right"};
-	FString SavingLocation = "E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
+	FString SavingLocation = "C:\\Users\\malig\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
 
 	TArray<float> current_intensity = {0, 0};
 
@@ -91,7 +97,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Session_ID")
 	FString Session_ID;
 
-	FTimerHandle LightTimerHandle, DarkTimerHandle, EyeTimerHandle;
+	FTimerHandle LightTimerHandle, DarkTimerHandle, EyeTimerHandle, PauseTimeHandle;
 	float Elapsed_time = 0.0;
 
 protected:
@@ -106,6 +112,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Function")
 		void Darkness(TArray<AStaticMeshActor*> lights);
+
+	UFUNCTION(BlueprintCallable, Category = "Function")
+		void Pause(TArray<AStaticMeshActor*> lights);
 	
 	UFUNCTION(BlueprintCallable, Category = "Function")
 		void TestProtocol(TArray<AStaticMeshActor*> lights);

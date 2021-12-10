@@ -17,7 +17,7 @@ void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 	{
 		//GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::Red, FString::Printf(TEXT("Output: %d"), position_in_sequence));
 		GetWorldTimerManager().ClearTimer(LightTimerHandle);
-		if(dark_duration==0.0f) Darkness(lights);
+		if(intermediate_dark_duration ==0.0f) Darkness(lights);
 		return;
 	}
 
@@ -25,12 +25,12 @@ void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 	float intensity = initial_light_intensity *construct_full_presentation_sequence[position_in_sequence];
 	
 	if (intensity > 0) {
-		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Light Left"));
+		//GEngine->AddOnScreenDebugMessage(-1, 20.f, FColor::Red, TEXT("Light Left"));
 		mat = D_left_and_right[0];
 		current_intensity = { intensity, 0 };
 	}
 	else {
-		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Light Right"));
+		//GEngine->AddOnScreenDebugMessage(-1, 20.f, FColor::Yellow, TEXT("Light Right"));
 		mat = D_left_and_right[1];
 		intensity = -intensity;
 		current_intensity = { 0, intensity };
@@ -43,9 +43,21 @@ void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 	{
 		lights[i]->GetStaticMeshComponent()->SetMaterial(0, mat);
 	}
-
 	position_in_sequence++;
 }
+
+void ALightController::Pause(TArray<AStaticMeshActor*> lights) {
+	GetWorldTimerManager().ClearTimer(LightTimerHandle);
+	GetWorldTimerManager().ClearTimer(DarkTimerHandle);
+	Darkness(lights);
+	//GEngine->AddOnScreenDebugMessage(-1, 20.f, FColor::White, TEXT("Pause"));
+	FTimerDelegate LightTimerDelegate, DarkTimerDelegate;
+	LightTimerDelegate.BindUFunction(this, FName("IncreaseLuminance"), lights);
+	DarkTimerDelegate.BindUFunction(this, FName("Darkness"), lights);
+	if (light_duration > 0.0f) GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + intermediate_dark_duration, true, pause_duration);
+	if (intermediate_dark_duration > 0.0f) GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + intermediate_dark_duration, true, pause_duration + light_duration);
+}
+
 
 void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 {
@@ -59,11 +71,11 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 	{
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
 		if(dropoff_left[0] == dropoff_right[0])
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(dark_duration, 2) +"_B_" + FString::SanitizeFloat(dropoff_left[0], 2) + ".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) +"_B_" + FString::SanitizeFloat(dropoff_left[0], 2) + ".csv", CSV_file, true);
 		else if(dropoff_left[0] != 1.0f)
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(dark_duration, 2) +"_L_"+ FString::SanitizeFloat(dropoff_left[0], 2) + ".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) +"_L_"+ FString::SanitizeFloat(dropoff_left[0], 2) + ".csv", CSV_file, true);
 		else
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(dark_duration, 2) + "_R_"+FString::SanitizeFloat(dropoff_right[0], 2)+".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) + "_R_"+FString::SanitizeFloat(dropoff_right[0], 2)+".csv", CSV_file, true);
 		return;
 	}
 	current_intensity = { 0, 0 };
@@ -84,7 +96,7 @@ void ALightController::Start_calibration() {
 
 void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 {
-	FTimerDelegate LightTimerDelegate, DarkTimerDelegate;
+	FTimerDelegate LightTimerDelegate, DarkTimerDelegate, PauseTimerDelegate;
 
 	D_left_and_right.Empty();
 
@@ -96,9 +108,17 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 	construct_full_presentation_sequence.Empty();
 
 	for (int32 i = 0; i < dropoff_left.Num(); i++) {
-		for (int32 j = 0; j < repititions; j++) {
-			construct_full_presentation_sequence.Add(-dropoff_right[i]);
-			construct_full_presentation_sequence.Add(dropoff_left[i]);
+		if (alter == true && i%2==1) {
+			for (int32 j = 0; j < repititions; j++) {
+				construct_full_presentation_sequence.Add(dropoff_left[i]);
+				construct_full_presentation_sequence.Add(-dropoff_right[i]);
+			}
+		}
+		else{
+			for (int32 j = 0; j < repititions; j++) {
+				construct_full_presentation_sequence.Add(-dropoff_right[i]);
+				construct_full_presentation_sequence.Add(dropoff_left[i]);
+			}
 		}
 	}
 
@@ -106,6 +126,8 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 
 	LightTimerDelegate.BindUFunction(this, FName("IncreaseLuminance"), lights);
 	DarkTimerDelegate.BindUFunction(this, FName("Darkness"), lights);
+	PauseTimerDelegate.BindUFunction(this, FName("Pause"), lights);
+
 	
 	if (after_accommodation) {
 		FTimerDelegate EyeDelegate;
@@ -113,8 +135,10 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 		current_intensity = { 0 , 0 };
 		GetWorldTimerManager().SetTimer(EyeTimerHandle, EyeDelegate, .008, true, 0.0f);
 	}
-	if(light_duration>0.0f) GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + dark_duration, true, start_time);
-	if(dark_duration>0.0f) GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + dark_duration, true, start_time + light_duration);
+	if(light_duration>0.0f) GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + intermediate_dark_duration, true, start_time);
+	if(intermediate_dark_duration >0.0f) GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + intermediate_dark_duration, true, start_time + light_duration);
+	if(pause_duration >0.0f) GetWorldTimerManager().SetTimer(PauseTimeHandle, PauseTimerDelegate, (light_duration + intermediate_dark_duration) * repititions *2 - intermediate_dark_duration + pause_duration, true, \
+		start_time + (light_duration+intermediate_dark_duration)*repititions * 2 - intermediate_dark_duration);
 }
 
 bool ALightController::LoadTextFromFile(FString FileName, TArray<FString>& TextArray)
