@@ -81,7 +81,7 @@ public:
 	int32 current_interval_position = 0;
 
 	TArray<FString> CSV_file = {"TimeStamp,Intensity_Left,Pupil_Diameter_Left,Intensity_Right,Pupil_Diameter_Right"};
-	FString SavingLocation = "C:\\Users\\malig\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
+	FString SavingLocation = "E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
 
 	TArray<float> current_intensity = {0, 0};
 

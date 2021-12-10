@@ -108,7 +108,7 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 	construct_full_presentation_sequence.Empty();
 
 	for (int32 i = 0; i < dropoff_left.Num(); i++) {
-		if (alter == true && i%2==1) {
+		if (alter && i%2==1) {
 			for (int32 j = 0; j < repititions; j++) {
 				construct_full_presentation_sequence.Add(dropoff_left[i]);
 				construct_full_presentation_sequence.Add(-dropoff_right[i]);
