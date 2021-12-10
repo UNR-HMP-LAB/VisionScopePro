@@ -70,6 +70,8 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
+		GetWorldTimerManager().ClearTimer(PauseTimeHandle);
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, TEXT("Done"));
 		if(dropoff_left[0] == dropoff_right[0])
 			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) +"_B_" + FString::SanitizeFloat(dropoff_left[0], 2) + ".csv", CSV_file, true);
 		else if(dropoff_left[0] != 1.0f)
@@ -138,7 +140,7 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 	if(light_duration>0.0f) GetWorldTimerManager().SetTimer(LightTimerHandle, LightTimerDelegate, light_duration + intermediate_dark_duration, true, start_time);
 	if(intermediate_dark_duration >0.0f) GetWorldTimerManager().SetTimer(DarkTimerHandle, DarkTimerDelegate, light_duration + intermediate_dark_duration, true, start_time + light_duration);
 	if(pause_duration >0.0f) GetWorldTimerManager().SetTimer(PauseTimeHandle, PauseTimerDelegate, (light_duration + intermediate_dark_duration) * repititions *2 - intermediate_dark_duration + pause_duration, true, \
-		start_time + (light_duration+intermediate_dark_duration)*repititions * 2 - intermediate_dark_duration);
+		start_time + (light_duration+intermediate_dark_duration)*repititions * 2 - intermediate_dark_duration - 0.01f);
 }
 
 bool ALightController::LoadTextFromFile(FString FileName, TArray<FString>& TextArray)
@@ -208,6 +210,8 @@ void ALightController::eyeTick() {
 		Intensity_Right = FString::SanitizeFloat(current_intensity[1]);
 
 	FString Pupil_Diameter_Left = "", Pupil_Diameter_Right = "";
+
+	//GEngine->AddOnScreenDebugMessage(-1, 0.01f, FColor::Red, FString::Printf(TEXT("Position in Sequence: %d"), position_in_sequence));
 
 	if (eye_tracking_ready) {
 		//hmd->GetPupilRadius(EFoveEye::Left, l);
