@@ -198,6 +198,7 @@ bool ALightController::DeleteTextFile(FString SaveDirectory, FString FileName)
 void ALightController::BeginPlay()
 {
 	disaccommodation_ = disaccommodation;
+	show_X_ = show_X;
 	LoadTextFromFile(SavingLocation + "\\intervals.csv", interval_list);
 	Super::BeginPlay();	
 }

@@ -48,6 +48,12 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
 	bool alter;
 
+	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	bool show_X;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
+	bool show_X_;
+
 	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
 	bool disaccommodation_;
 
