@@ -16,7 +16,7 @@
 	"Plugins": [
 		{
 			"Name": "FoveHMD",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "SRWorks",
@@ -32,7 +32,7 @@
 		},
 		{
 			"Name": "SteamVR",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win32",
 				"Win64",
