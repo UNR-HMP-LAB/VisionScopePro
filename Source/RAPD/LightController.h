@@ -8,7 +8,10 @@
 #include "Misc/DateTime.h"
 #include "Misc/FileHelper.h"
 #include "HAL/PlatformFilemanager.h"
-#include "SRanipalEye_Core.h"
+#include "FoveHMD.h"													//FOVE
+#include "FoveVRFunctionLibrary.h"										//FOVE
+#include "SRanipalEye_Core.h"											//HTC VIVE
+#include "SRanipalEye_Framework.h"
 #include "TimerManager.h"
 #include "Engine/StaticMeshActor.h"
 #include "LightController.generated.h"
@@ -87,7 +90,7 @@ public:
 	int32 current_interval_position = 0;
 
 	TArray<FString> CSV_file = {"TimeStamp,Intensity_Left,Pupil_Diameter_Left,Intensity_Right,Pupil_Diameter_Right"};
-	FString SavingLocation = "E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
+	FString SavingLocation = "C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
 
 	TArray<float> current_intensity = {0, 0};
 
@@ -95,7 +98,12 @@ public:
 	
 	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
 	bool eye_tracking_ready = false;
-	SRanipalEye_Core* eye_core;
+
+	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	int8 device_id;
+
+	SRanipalEye_Core* eye_core_vive;
+	FFoveHMD* eye_core_fove;
 	
 	UPROPERTY(EditAnywhere, Category = "Subject_ID")
 	FString ID;

@@ -17,7 +17,7 @@ void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 	{
 		//GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::Red, FString::Printf(TEXT("Output: %d"), position_in_sequence));
 		GetWorldTimerManager().ClearTimer(LightTimerHandle);
-		if(intermediate_dark_duration ==0.0f) Darkness(lights);
+		if(intermediate_dark_duration == 0.0f) Darkness(lights);
 		return;
 	}
 
@@ -84,8 +84,19 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 }
 
 void ALightController::Start_calibration() {
-	eye_core = SRanipalEye_Core::Instance();
-	if(do_calibration) eye_core->LaunchEyeCalibration_(nullptr);
+	if (device_id == 0) {
+		SRanipalEye_Framework::Instance()->StartFramework(SupportedEyeVersion::version2);
+		eye_core_vive = SRanipalEye_Core::Instance();
+		if (do_calibration) eye_core_vive->LaunchEyeCalibration_(nullptr);
+	}
+	else if (device_id == 1) {
+		eye_core_fove = FFoveHMD::Get();					//FOVE
+		EFoveErrorCode error;																					
+		TArray<EFoveClientCapabilities> caps;																	
+		caps.Add(EFoveClientCapabilities::EyeTracking);															
+		caps.Add(EFoveClientCapabilities::PupilRadius);															
+		error = eye_core_fove->RegisterCapabilities(caps);															
+	}
 	eye_tracking_ready = true;
 
 	if (!after_accommodation) {
@@ -215,13 +226,25 @@ void ALightController::eyeTick() {
 	//GEngine->AddOnScreenDebugMessage(-1, 0.01f, FColor::Red, FString::Printf(TEXT("Position in Sequence: %d"), position_in_sequence));
 
 	if (eye_tracking_ready) {
-		//hmd->GetPupilRadius(EFoveEye::Left, l);
-		//hmd->GetPupilRadius(EFoveEye::Right, r);
-		ViveSR::anipal::Eye::EyeData_v2 data;
-		int error = eye_core->GetEyeData_v2(&data);
-		//TimeStamp = FString::SanitizeFloat(data.timestamp);
-		Pupil_Diameter_Left = FString::SanitizeFloat(data.verbose_data.left.pupil_diameter_mm);
-		Pupil_Diameter_Right = FString::SanitizeFloat(data.verbose_data.right.pupil_diameter_mm);
+		if (device_id == 0) {
+			ViveSR::anipal::Eye::EyeData_v2 data;
+			int error = eye_core_vive->GetEyeData_v2(&data);
+
+			Pupil_Diameter_Left = FString::SanitizeFloat(data.verbose_data.left.pupil_diameter_mm);
+			Pupil_Diameter_Right = FString::SanitizeFloat(data.verbose_data.right.pupil_diameter_mm);
+		}
+		else if (device_id == 1) {
+			FFoveFrameTimestamp out_ftm;
+			float left_pupil_radius, right_pupil_radius;
+			eye_core_fove->FetchEyeTrackingData(out_ftm);
+
+			eye_core_fove->GetPupilRadius(EFoveEye::Left, left_pupil_radius);
+			eye_core_fove->GetPupilRadius(EFoveEye::Right, right_pupil_radius);
+
+			Pupil_Diameter_Left = FString::SanitizeFloat(left_pupil_radius * 2);
+			Pupil_Diameter_Right = FString::SanitizeFloat(right_pupil_radius * 2);
+		}
+		
 		//GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::White, FString::Printf(TEXT("Output: %f"), data.verbose_data.left.pupil_diameter_mm));
 	}
 
