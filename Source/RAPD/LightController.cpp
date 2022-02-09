@@ -36,8 +36,10 @@ void ALightController::IncreaseLuminance(TArray<AStaticMeshActor*> lights)
 		current_intensity = { 0, intensity };
 	}
 
+	current_mat = mat;
+
 	mat->SetScalarParameterValue(TEXT("intensity"), intensity);
-	mat->SetVectorParameterValue(TEXT("Color"), color);
+	mat->SetVectorParameterValue(TEXT("Color"), color_);
 
 	for (int32 i = 0; i < lights.Num(); i++)
 	{
@@ -210,6 +212,7 @@ void ALightController::BeginPlay()
 {
 	disaccommodation_ = disaccommodation;
 	show_X_ = show_X;
+	color_ = color;
 	LoadTextFromFile(SavingLocation + "\\intervals.csv", interval_list);
 	Super::BeginPlay();	
 }
@@ -222,6 +225,8 @@ void ALightController::eyeTick() {
 		Intensity_Right = FString::SanitizeFloat(current_intensity[1]);
 
 	FString Pupil_Diameter_Left = "", Pupil_Diameter_Right = "";
+	FString Gaze_Direction = "", Gaze_Origin = "";
+	FVector gaze_origin, gaze_direction;
 
 	//GEngine->AddOnScreenDebugMessage(-1, 0.01f, FColor::Red, FString::Printf(TEXT("Position in Sequence: %d"), position_in_sequence));
 
@@ -232,6 +237,8 @@ void ALightController::eyeTick() {
 
 			Pupil_Diameter_Left = FString::SanitizeFloat(data.verbose_data.left.pupil_diameter_mm);
 			Pupil_Diameter_Right = FString::SanitizeFloat(data.verbose_data.right.pupil_diameter_mm);
+			gaze_direction = data.verbose_data.combined.eye_data.gaze_direction_normalized;
+			gaze_origin = data.verbose_data.combined.eye_data.gaze_origin_mm;
 		}
 		else if (device_id == 1) {
 			FFoveFrameTimestamp out_ftm;
@@ -241,14 +248,19 @@ void ALightController::eyeTick() {
 			eye_core_fove->GetPupilRadius(EFoveEye::Left, left_pupil_radius);
 			eye_core_fove->GetPupilRadius(EFoveEye::Right, right_pupil_radius);
 
-			Pupil_Diameter_Left = FString::SanitizeFloat(left_pupil_radius * 2);
-			Pupil_Diameter_Right = FString::SanitizeFloat(right_pupil_radius * 2);
+			eye_core_fove->GetCombinedGazeRay(gaze_origin, gaze_direction);
+
+			Pupil_Diameter_Left = FString::SanitizeFloat(left_pupil_radius * 2000);
+			Pupil_Diameter_Right = FString::SanitizeFloat(right_pupil_radius * 2000);
 		}
-		
+
+		Gaze_Origin = FString::SanitizeFloat(gaze_origin.X) + "," + FString::SanitizeFloat(gaze_origin.Y) + "," + FString::SanitizeFloat(gaze_origin.Z);
+		Gaze_Direction = FString::SanitizeFloat(gaze_direction.X) + "," + FString::SanitizeFloat(gaze_direction.Y) + "," + FString::SanitizeFloat(gaze_direction.Z);
+
 		//GEngine->AddOnScreenDebugMessage(-1, 12.f, FColor::White, FString::Printf(TEXT("Output: %f"), data.verbose_data.left.pupil_diameter_mm));
 	}
 
-	CSV_file.Add(TimeStamp + "," + Intensity_Left + "," + Pupil_Diameter_Left + "," + Intensity_Right + "," + Pupil_Diameter_Right);
+	CSV_file.Add(TimeStamp + "," + Intensity_Left + "," + Pupil_Diameter_Left + "," + Intensity_Right + "," + Pupil_Diameter_Right + "," +Gaze_Origin+","+Gaze_Direction);
 	//SaveArrayText(SavingLocation, ID + "_" + tempstring + ".csv", CSV_file, true);
 }
 

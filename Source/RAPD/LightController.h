@@ -36,6 +36,9 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Materials")
 	FLinearColor color;
 
+	UPROPERTY(BlueprintReadWrite, Category = "Materials")
+	FLinearColor color_;
+
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
 	int32 repititions;
 
@@ -56,6 +59,9 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
 	bool show_X_;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
+	UMaterialInstanceDynamic* current_mat;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
 	bool disaccommodation_;
@@ -89,8 +95,8 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
 	int32 current_interval_position = 0;
 
-	TArray<FString> CSV_file = {"TimeStamp,Intensity_Left,Pupil_Diameter_Left,Intensity_Right,Pupil_Diameter_Right"};
-	FString SavingLocation = "C:\\Users\\prith\\Documents\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//"E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
+	TArray<FString> CSV_file = {"TimeStamp,Intensity_Left,Pupil_Diameter_Left,Intensity_Right,Pupil_Diameter_Right,GazeOrigin.x,GazeOrigin.y,GazeOrigin.z,GazeDirection.x,GazeDirection.y,GazeDirection.z"};
+	FString SavingLocation = "E:\\Unreal Projects\\RAPD\\Saved\\Processed_Data";//
 
 	TArray<float> current_intensity = {0, 0};
 
