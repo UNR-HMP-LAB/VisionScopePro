@@ -99,7 +99,10 @@ void ALightController::Start_calibration() {
 		caps.Add(EFoveClientCapabilities::PupilRadius);															
 		error = eye_core_fove->RegisterCapabilities(caps);															
 	}
-	eye_tracking_ready = true;
+	if (device_id <2) {
+		eye_tracking_ready = true;
+	}
+	
 
 	if (!after_accommodation) {
 		FTimerDelegate EyeDelegate;
@@ -263,7 +266,6 @@ void ALightController::eyeTick() {
 	CSV_file.Add(TimeStamp + "," + Intensity_Left + "," + Pupil_Diameter_Left + "," + Intensity_Right + "," + Pupil_Diameter_Right + "," +Gaze_Origin+","+Gaze_Direction);
 	//SaveArrayText(SavingLocation, ID + "_" + tempstring + ".csv", CSV_file, true);
 }
-
 
 // Called every frame
 void ALightController::Tick(float DeltaTime)
