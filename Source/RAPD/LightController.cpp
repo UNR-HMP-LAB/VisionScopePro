@@ -74,6 +74,7 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
 		GetWorldTimerManager().ClearTimer(PauseTimeHandle);
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, TEXT("Done"));
+		session_complete = true;
 		if(dropoff_left[0] == dropoff_right[0])
 			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) +"_B_" + FString::SanitizeFloat(dropoff_left[0], 2) + ".csv", CSV_file, true);
 		else if(dropoff_left[0] != 1.0f)
@@ -271,3 +272,41 @@ void ALightController::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
+void ALightController::UIProtocol(FString Patient_ID, int32 Protocol_ID, int32 start, int32 end) {
+	ID = Patient_ID;
+	do_calibration = false;
+	if (Protocol_ID == 1) {
+		repititions = 3;
+		Session_ID = "5";
+		light_duration = 3;
+		dropoff_left.Empty();
+		dropoff_right.Empty();
+		dropoff_left = {1, 1, 1, 0.3, 0.16};
+		dropoff_right = { 1, 0.3, 0.16, 1, 1 };
+	}
+	else if (Protocol_ID == 2) {
+		repititions = 3;
+		Session_ID = "5";
+		light_duration = 2;
+		dropoff_left.Empty();
+		dropoff_right.Empty();
+		dropoff_left = { 1, 1, 1, 0.3, 0.16 };
+		dropoff_right = { 1, 0.3, 0.16, 1, 1 };
+	}
+	else if (Protocol_ID == 3) {
+		repititions = 4;
+		Session_ID = "1";
+		light_duration = 2;
+		dropoff_left.Empty();
+		dropoff_right.Empty();
+		TArray<float> temp_dropoff_left = { 1, 0.82, 0.64, 0.5, 0.39, 0.3, 0.23, 0.18, 0.14, 0.11, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+		TArray<float> temp_dropoff_right = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.82, 0.64, 0.5, 0.39, 0.3, 0.23, 0.18, 0.14, 0.11};
+		for (int32 i = start-1; i < end+1; i++) {
+			dropoff_left.Add(temp_dropoff_left[i]);
+			dropoff_right.Add(temp_dropoff_right[i]);
+		}
+	}
+	else {
+		do_calibration = true;
+	}
+}

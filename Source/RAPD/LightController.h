@@ -105,6 +105,9 @@ public:
 	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
 	bool eye_tracking_ready = false;
 
+	UPROPERTY(BlueprintReadWrite, Category = "Terminate")
+		bool session_complete = false;
+
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
 	int8 device_id;
 
@@ -138,6 +141,9 @@ public:
 	
 	UFUNCTION(BlueprintCallable, Category = "Function")
 		void TestProtocol(TArray<AStaticMeshActor*> lights);
+
+	UFUNCTION(BlueprintCallable, Category = "Function")
+		void UIProtocol(FString Patient_ID, int32 Protocol_ID, int32 start, int32 end);
 
 	UFUNCTION(BlueprintCallable, Category = "Custom", meta = (Keywords = "Load"))
 		static bool LoadTextFromFile(FString FileName, TArray<FString>& TextArray);
