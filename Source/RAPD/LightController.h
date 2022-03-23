@@ -100,6 +100,11 @@ public:
 
 	TArray<float> current_intensity = {0, 0};
 
+	UPROPERTY(BlueprintReadWrite, Category = "Color Calibration Properties")
+	TArray<FLinearColor> luv_from_fove = { FLinearColor(0.524839313, 0.420008266, 0.372208174),FLinearColor(0.512692981, 0.381000841, 0.340125648),FLinearColor(0.555505369, 0.386885991, 0.359811282),FLinearColor(0.54805557, 0.356190608, 0.333232281),FLinearColor(0.495866142, 0.281469298, 0.26982147),FLinearColor(0.604261162, 0.342906559, 0.34684573),FLinearColor(0.540466333, 0.24299642, 0.278767582),FLinearColor(0.54805557, 0.207939083, 0.26982147),FLinearColor(0.623607999, 0.179516747, 0.311373113),FLinearColor(0.469072772, 0.368864729, 0.326152573),FLinearColor(0.384850736, 0.420008266, 0.326152573),FLinearColor(0.459667505, 0.362599068, 0.318871774),FLinearColor(0.487155857, 0.374996087, 0.384100889),FLinearColor(0.504374403, 0.381000841, 0.437599308),FLinearColor(0.482720729, 0.349629931, 0.442502913),FLinearColor(0.473681209, 0.321635576, 0.456814893),FLinearColor(0.491537075, 0.321635576, 0.496669115),FLinearColor(0.445051196, 0.253326654, 0.466047736),FLinearColor(0.449994684, 0.232066388, 0.492442334),FLinearColor(0.562822532, 0.281469298, 0.626080293),FLinearColor(0.495866142, 0.120303472, 0.569637124) };
+
+	bool save_on_pause = false;
+
 	FString tempstring = FDateTime().Now().ToString();
 	
 	UPROPERTY(BlueprintReadWrite, Category = "Protocol Properties")
@@ -143,7 +148,7 @@ public:
 		void TestProtocol(TArray<AStaticMeshActor*> lights);
 
 	UFUNCTION(BlueprintCallable, Category = "Function")
-		void UIProtocol(FString Patient_ID, int32 Protocol_ID, int32 start, int32 end);
+		void UIProtocol(FString Patient_ID, int32 Protocol_ID, int32 start, int32 end, FString filepath);
 
 	UFUNCTION(BlueprintCallable, Category = "Custom", meta = (Keywords = "Load"))
 		static bool LoadTextFromFile(FString FileName, TArray<FString>& TextArray);
