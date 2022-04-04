@@ -54,14 +54,16 @@ void ALightController::Pause(TArray<AStaticMeshActor*> lights) {
 	Darkness(lights);
 
 	TArray<float> temp_dropoff = { -construct_full_presentation_sequence[position_in_sequence-2], construct_full_presentation_sequence[position_in_sequence-1] };
+	FString device_name = "fove";
+	if (device_id == 0) device_name = "vive";
 
 	if (save_on_pause) {
 		if (temp_dropoff[0] == temp_dropoff[1])
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) + "_B_" + FString::SanitizeFloat(temp_dropoff[0], 2) + "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + device_name +"_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) + "_B_" + FString::SanitizeFloat(temp_dropoff[0], 2) + "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
 		else if (temp_dropoff[1] != 1.0f)
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) + "_L_" + FString::SanitizeFloat(temp_dropoff[1], 2) + "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + device_name + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) + "_L_" + FString::SanitizeFloat(temp_dropoff[1], 2) + "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
 		else
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) + "_R_" + FString::SanitizeFloat(temp_dropoff[0], 2) + "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + device_name + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) + "_R_" + FString::SanitizeFloat(temp_dropoff[0], 2) + "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
 		CSV_file.Empty();
 		CSV_file = {"TimeStamp,Intensity_Left,Pupil_Diameter_Left,Intensity_Right,Pupil_Diameter_Right,GazeOrigin.x,GazeOrigin.y,GazeOrigin.z,GazeDirection.x,GazeDirection.y,GazeDirection.z"};
 	}
@@ -84,16 +86,20 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 	}
 	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
+
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
 		GetWorldTimerManager().ClearTimer(PauseTimeHandle);
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, TEXT("Done"));
 		session_complete = true;
+
+		FString device_name = "fove";
+		if (device_id == 0) device_name = "vive";
 		if(!save_on_pause && dropoff_left[0] == dropoff_right[0])
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) +"_B_" + FString::SanitizeFloat(dropoff_left[0], 2) + "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + device_name + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) +"_B_" + FString::SanitizeFloat(dropoff_left[0], 2) + "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
 		else if(!save_on_pause && dropoff_left[0] != 1.0f)
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) +"_L_"+ FString::SanitizeFloat(dropoff_left[0], 2) + "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + device_name + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) +"_L_"+ FString::SanitizeFloat(dropoff_left[0], 2) + "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
 		else if(!save_on_pause)
-			SaveArrayText(SavingLocation, ID + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) + "_R_"+FString::SanitizeFloat(dropoff_right[0], 2)+ "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
+			SaveArrayText(SavingLocation, ID + "_" + device_name + "_" + Session_ID + "_On_" + FString::SanitizeFloat(light_duration, 2) + "_Off_" + FString::SanitizeFloat(intermediate_dark_duration, 2) + "_R_"+FString::SanitizeFloat(dropoff_right[0], 2)+ "_Time_" + FDateTime::Now().ToString() + ".csv", CSV_file, true);
 		return;
 	}
 	current_intensity = { 0, 0 };
@@ -160,7 +166,6 @@ void ALightController::TestProtocol(TArray<AStaticMeshActor*> lights)
 	DarkTimerDelegate.BindUFunction(this, FName("Darkness"), lights);
 	PauseTimerDelegate.BindUFunction(this, FName("Pause"), lights);
 
-	
 	if (after_accommodation) {
 		FTimerDelegate EyeDelegate;
 		EyeDelegate.BindUFunction(this, FName("eyeTick"));
@@ -298,8 +303,15 @@ void ALightController::UIProtocol(FString Patient_ID, int32 Protocol_ID, int32 s
 		light_duration = 3;
 		dropoff_left.Empty();
 		dropoff_right.Empty();
-		dropoff_left = {5, 5, 5, 0.39, 0.2};
-		dropoff_right = { 5, 0.39, 0.2, 5, 5 };
+		
+		if (device_id == 0) {
+			dropoff_left = { 1, 1, 1, 0.3, 0.16 };
+			dropoff_right = { 1, 0.3, 0.16, 1, 1 };
+		}
+		else {
+			dropoff_left = { 5, 5, 5, 0.39, 0.2 };
+			dropoff_right = { 5, 0.39, 0.2, 5, 5 };
+		}
 	}
 	else if (Protocol_ID == 2) {
 		repititions = 3;
@@ -307,8 +319,15 @@ void ALightController::UIProtocol(FString Patient_ID, int32 Protocol_ID, int32 s
 		light_duration = 2;
 		dropoff_left.Empty();
 		dropoff_right.Empty();
-		dropoff_left = { 5, 5, 5, 0.39, 0.2 };
-		dropoff_right = { 5, 0.39, 0.2, 5, 5 };
+
+		if (device_id == 0) {
+			dropoff_left = { 1, 1, 1, 0.3, 0.16 };
+			dropoff_right = { 1, 0.3, 0.16, 1, 1 };
+		}
+		else {
+			dropoff_left = { 5, 5, 5, 0.39, 0.2 };
+			dropoff_right = { 5, 0.39, 0.2, 5, 5 };
+		}
 	}
 	else if (Protocol_ID == 3) {
 		repititions = 4;
@@ -318,8 +337,17 @@ void ALightController::UIProtocol(FString Patient_ID, int32 Protocol_ID, int32 s
 		light_duration = 2;
 		dropoff_left.Empty();
 		dropoff_right.Empty();
-		TArray<float> temp_dropoff_left = { 1, 0.82, 0.64, 0.5, 0.39, 0.3, 0.23, 0.18, 0.14, 0.11, 1, 1, 1, 1, 1, 1, 1, 1, 1};
-		TArray<float> temp_dropoff_right = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.82, 0.64, 0.5, 0.39, 0.3, 0.23, 0.18, 0.14, 0.11};
+
+		TArray<float> temp_dropoff_left, temp_dropoff_right;
+
+		if (device_id == 0) {
+			temp_dropoff_left = { 1, 0.82, 0.64, 0.5, 0.39, 0.3, 0.23, 0.18, 0.14, 0.11, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+			temp_dropoff_right = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.82, 0.64, 0.5, 0.39, 0.3, 0.23, 0.18, 0.14, 0.11 };
+		}
+		else {
+			temp_dropoff_left = { 1, 0.82, 0.64, 0.5, 0.39, 0.3, 0.23, 0.18, 0.14, 0.11, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
+			temp_dropoff_right = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0.82, 0.64, 0.5, 0.39, 0.3, 0.23, 0.18, 0.14, 0.11 };
+		}
 		for (int32 i = start-1; i < end; i++) {
 			dropoff_left.Add(temp_dropoff_left[i]);
 			dropoff_right.Add(temp_dropoff_right[i]);
