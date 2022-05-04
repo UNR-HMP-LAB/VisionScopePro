@@ -354,3 +354,27 @@ void ALightController::UIProtocol(FString Patient_ID, int32 Protocol_ID, int32 s
 		}
 	}
 }
+
+FLinearColor ALightController::convert_hex() {
+	return FLinearColor(FColor::FromHex(hexColor));
+}
+
+FLinearColor ALightController::serially() {
+	if (serial < protan_hex.Num()) {
+		hexColor = protan_hex[serial];
+	}
+	else if (serial >= protan_hex.Num() && serial < protan_hex.Num()+deutan_hex.Num()) {
+		hexColor = deutan_hex[serial-protan_hex.Num()];
+	}
+	else if (serial >= protan_hex.Num() + deutan_hex.Num() && serial< protan_hex.Num() + deutan_hex.Num() + tritan_hex.Num()){
+		hexColor = tritan_hex[serial - protan_hex.Num() - deutan_hex.Num()];
+	}
+	else if(serial < protan_hex.Num() + deutan_hex.Num() + tritan_hex.Num() + background_hex.Num()){
+		hexColor = background_hex[serial - protan_hex.Num() - deutan_hex.Num() - tritan_hex.Num()];
+	}
+	else {
+		serial = 0;
+	}
+	serial++;
+	return convert_hex();
+}
