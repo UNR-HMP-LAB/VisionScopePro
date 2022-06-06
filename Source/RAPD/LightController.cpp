@@ -86,7 +86,6 @@ void ALightController::Darkness(TArray<AStaticMeshActor*> lights)
 	}
 	if (position_in_sequence >= construct_full_presentation_sequence.Num())
 	{
-
 		GetWorldTimerManager().ClearTimer(DarkTimerHandle);
 		GetWorldTimerManager().ClearTimer(PauseTimeHandle);
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, TEXT("Done"));
