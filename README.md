@@ -1,10 +1,10 @@
 # FieldTracer XR
 
 ## Overview
-FieldTracer XR is a proprietary project developed under the Human-Machine Perception Lab at the University of Nevada, Reno. This module, designed for Humphrey visual field testing in an Unreal Engine 5 and Vive Pro Eye VR headset environment, is initially focusing on the basic 20/40 test. The project, funded by NASA grants, is part of a larger effort to enhance clinical diagnosis and understanding of vestibulo-ocular diseases, with potential future applications in clinical environments.
+FieldTracer XR is a proprietary project developed under the Human-Machine Perception Lab at the University of Nevada, Reno. This module is designed for Humphrey visual field testing in Unreal Engine 5 and Vive Pro Eye VR headset environment and is initially focused on the basic 20/40 test. The project is funded by NASA grants and is part of a larger effort to enhance clinical diagnosis and understanding of vestibulo-ocular diseases.
 
 ## Current Focus
-The current development stage is centered on implementing the basic 20/40 visual field test, with plans to expand the project's scope in future updates.
+The current development stage is centered on implementing the basic 20/40 visual field test with plans to expand the project's scope in future updates.
 
 ## Features (Planned)
 - **Extended Reality Visual Field Assessment**: Employing XR technology for a comprehensive visual field testing experience.
