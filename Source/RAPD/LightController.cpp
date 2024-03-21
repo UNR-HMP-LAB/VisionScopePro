@@ -175,7 +175,7 @@ void ALightController::Start_calibration() {
 		caps.Add(EFoveClientCapabilities::PupilRadius);															
 		error = eye_core_fove->RegisterCapabilities(caps);															
 	}
-	if (device_id <2) {
+	if (device_id <3) {
 		eye_tracking_ready = true;
 	}
 	if (calibration_status != 0) {
@@ -369,7 +369,9 @@ void ALightController::eyeTick() {
 			Pupil_Diameter_Left = FString::SanitizeFloat(left_pupil_radius * 2000);
 			Pupil_Diameter_Right = FString::SanitizeFloat(right_pupil_radius * 2000);
 		}
+		else if (device_id == 2) {
 
+		}
 		Gaze_Origin = FString::SanitizeFloat(gaze_origin.X) + "," + FString::SanitizeFloat(gaze_origin.Y) + "," + FString::SanitizeFloat(gaze_origin.Z);
 		Gaze_Direction = FString::SanitizeFloat(gaze_direction.X) + "," + FString::SanitizeFloat(gaze_direction.Y) + "," + FString::SanitizeFloat(gaze_direction.Z);
 
@@ -387,6 +389,7 @@ void ALightController::Tick(float DeltaTime)
 }
 
 void ALightController::UIProtocol(FString Patient_ID, int32 Protocol_ID, int32 start, int32 end, FString filepath) {
+	//When both dropoffs are negative, it signifies a darkness period of that amount to both eyes. when only one eye is negative, that means that eye is presented the stimuli first
 	ID = Patient_ID;
 	do_calibration = true;
 	save_on_pause = false;
@@ -538,6 +541,22 @@ void ALightController::UIProtocol(FString Patient_ID, int32 Protocol_ID, int32 s
 			dropoff_left.Add(temp_dropoff_left[i]);
 			dropoff_right.Add(temp_dropoff_right[i]);
 		}
+	}
+	else if (Protocol_ID == 9) {
+			repititions = 1;
+			Session_ID = "9";
+			light_duration = 5;
+			dropoff_left.Empty();
+			dropoff_right.Empty();
+
+			if (device_id == 0) {
+				dropoff_left = { 0.1, 0.16, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 };
+				dropoff_right = { 0.1, 0.16, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 };
+			}
+			else {
+				dropoff_left = { 5, 5, 5, 0.39, 0.2 };
+				dropoff_right = { 5, 0.39, 0.2, 5, 5 };
+			}
 	}
 	dark_adaptation_starts.Empty();
 	dark_adaptation_durations.Empty();

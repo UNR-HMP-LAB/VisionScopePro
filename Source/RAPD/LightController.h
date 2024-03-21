@@ -42,7 +42,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
 	int32 repititions;
 
-	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Protocol Properties")
 	bool do_calibration;
 
 	UPROPERTY(EditAnywhere, Category = "Protocol Properties")
