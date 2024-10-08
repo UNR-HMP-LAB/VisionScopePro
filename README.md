@@ -45,9 +45,9 @@ This project is supported by NASA grants and the collaborative efforts of the Hu
 ## Contact
 For more information, inquiries, or feedback, please contact:
 
-Project Dev: JoJo Petersky  
+Project Lead: JoJo Petersky  
 - GitHub: [@hotcuppajojo](https://github.com/hotcuppajojo)  
-- Email: [jpetersky@nevada.unr.edu](mailto:jpetersky@nevada.unr.edu)  
+- Email: [jpetersky@unr.edu](mailto:jpetersky@unr.edu)
 - LinkedIn: [https://www.linkedin.com/in/jojopetersky/](https://www.linkedin.com/in/jojopetersky/)
 
 Advisor: Dr. Alireza Tavakkoli  
