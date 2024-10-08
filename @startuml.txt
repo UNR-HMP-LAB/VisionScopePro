@@ -1,0 +1,28 @@
+@startuml
+class ATestStimuli {
+  +StimuliActorClass: TSubclassOf<AActor>
+  +FixationActorClass: TSubclassOf<AActor>
+  +StimuliRadius: float
+  +TestType: ETestType
+  +TestResultsArray: TArray<FTestResults>
+  
+  +GenerateStimuliPattern(int32, float): void
+  +GeneratePattern_10_2(): void
+  +GeneratePattern_24_2(): void
+  +PolarToCartesian(float, float, float): FVector
+  +RecordStimulusResult(FVector, bool): void
+}
+
+enum ETestType {
+  TEST_10_2
+  TEST_24_2
+}
+
+class FTestResults {
+  +StimulusLocation: FVector
+  +bStimulusSeen: bool
+}
+
+ATestStimuli --> ETestType : uses
+ATestStimuli --> FTestResults : has many
+@enduml
