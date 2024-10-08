@@ -2,6 +2,12 @@
 .vs/
 .vsconfig
 
+#  Visual Studio auto save auto recovery folder
+enc_temp_folder/
+
+# Mac OS X hidden files
+.DS_Store
+
 # Compiled Object files
 *.slo
 *.lo
@@ -77,3 +83,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Plugins files that are obtained outside of the project scope
+Plugins/OnlineSubsystemPICO
+Plugins/PICOEnterprise
+Plugins/PICOLivePreview
+Plugins/PicoSpatialAudio
+Plugins/PICOXR
