@@ -1,0 +1,1353 @@
+{
+	"folders": [
+		{
+			"name": "VisionScopePro",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "C:\\Program Files\\Epic Games\\UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "VisionScopePro Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Debug",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Debug",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopePro Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Debug",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"DebugGame",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"DebugGame",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopePro Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"DebugGame",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Development",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Development",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopePro Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Development",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Test",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Test",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopePro Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Test",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Shipping",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Shipping",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopePro Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopePro",
+					"Win64",
+					"Shipping",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Debug",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Debug Cook+Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Debug",
+					"-ServerConfig=Debug",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Build",
+					"VisionScopePro Android Debug Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Debug Cook",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Debug",
+					"-ServerConfig=Debug",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook"
+				],
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Build",
+					"VisionScopePro Android Debug Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Debug Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Debug",
+					"-ServerConfig=Debug",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-DeploySoToDevice",
+					"-SkipCook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"VisionScopePro Android Debug Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Debug",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopePro Android Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Debug",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"DebugGame",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android DebugGame Cook+Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=DebugGame",
+					"-ServerConfig=DebugGame",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Build",
+					"VisionScopePro Android DebugGame Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android DebugGame Cook",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=DebugGame",
+					"-ServerConfig=DebugGame",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook"
+				],
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Build",
+					"VisionScopePro Android DebugGame Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android DebugGame Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=DebugGame",
+					"-ServerConfig=DebugGame",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-DeploySoToDevice",
+					"-SkipCook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"VisionScopePro Android DebugGame Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"DebugGame",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopePro Android DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"DebugGame",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Development",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Development Cook+Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Development",
+					"-ServerConfig=Development",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Build",
+					"VisionScopePro Android Development Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Development Cook",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Development",
+					"-ServerConfig=Development",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook"
+				],
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Build",
+					"VisionScopePro Android Development Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Development Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Development",
+					"-ServerConfig=Development",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-DeploySoToDevice",
+					"-SkipCook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"VisionScopePro Android Development Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Development",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopePro Android Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Development",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Test",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Test Cook+Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Test",
+					"-ServerConfig=Test",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Build",
+					"VisionScopePro Android Test Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Test Cook",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Test",
+					"-ServerConfig=Test",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook"
+				],
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Build",
+					"VisionScopePro Android Test Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Test Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Test",
+					"-ServerConfig=Test",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-DeploySoToDevice",
+					"-SkipCook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"VisionScopePro Android Test Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Test",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopePro Android Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Test",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Shipping",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Shipping Cook+Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Shipping",
+					"-ServerConfig=Shipping",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Build",
+					"VisionScopePro Android Shipping Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Shipping Cook",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Shipping",
+					"-ServerConfig=Shipping",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook"
+				],
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Build",
+					"VisionScopePro Android Shipping Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Shipping Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-Project=Z:/UnrealProjects/VisionScopePro/VisionScopePro/VisionScopePro.uproject",
+					"-noP4",
+					"-ClientConfig=Shipping",
+					"-ServerConfig=Shipping",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-DeploySoToDevice",
+					"-SkipCook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"VisionScopePro Android Shipping Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Shipping",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopePro Android Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopePro Android Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopePro",
+					"Android",
+					"Shipping",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopeProEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopeProEditor",
+					"Win64",
+					"Debug",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopeProEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopeProEditor",
+					"Win64",
+					"Debug",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopeProEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopeProEditor",
+					"Win64",
+					"Debug",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopeProEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopeProEditor",
+					"Win64",
+					"DebugGame",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopeProEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopeProEditor",
+					"Win64",
+					"DebugGame",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopeProEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopeProEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopeProEditor",
+					"Win64",
+					"DebugGame",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopeProEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopeProEditor",
+					"Win64",
+					"Development",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopeProEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"VisionScopeProEditor",
+					"Win64",
+					"Development",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"VisionScopeProEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "VisionScopeProEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"VisionScopeProEditor",
+					"Win64",
+					"Development",
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch VisionScopePro (Debug)",
+				"request": "launch",
+				"program": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "VisionScopePro Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch VisionScopePro (DebugGame)",
+				"request": "launch",
+				"program": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "VisionScopePro Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch VisionScopePro (Development)",
+				"request": "launch",
+				"program": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "VisionScopePro Win64 Development Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch VisionScopePro (Test)",
+				"request": "launch",
+				"program": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "VisionScopePro Win64 Test Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch VisionScopePro (Shipping)",
+				"request": "launch",
+				"program": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "VisionScopePro Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch VisionScopeProEditor (Debug)",
+				"request": "launch",
+				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "VisionScopeProEditor Win64 Debug Build",
+				"args": [
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject"
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch VisionScopeProEditor (DebugGame)",
+				"request": "launch",
+				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "VisionScopeProEditor Win64 DebugGame Build",
+				"args": [
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject"
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch VisionScopeProEditor (Development)",
+				"request": "launch",
+				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "VisionScopeProEditor Win64 Development Build",
+				"args": [
+					"Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject"
+				],
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "C:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\VisionScopePro.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "externalTerminal",
+				"stopAtEntry": false,
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.3"
+			}
+		]
+	}
+}

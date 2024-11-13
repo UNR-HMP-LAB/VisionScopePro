@@ -1,0 +1,49 @@
+Begin Object Class=/Script/EnhancedInput.InputMappingContext Name="PicoEye" ExportPath="/Script/EnhancedInput.InputMappingContext'/Game/PicoInput/PicoEye.PicoEye'"
+   Begin Object Class=/Script/EnhancedInput.InputModifierNegate Name="InputModifierNegate_0" ExportPath="/Script/EnhancedInput.InputModifierNegate'/Game/PicoInput/PicoEye.PicoEye:InputModifierNegate_0'"
+   End Object
+   Begin Object Class=/Script/EnhancedInput.InputModifierNegate Name="InputModifierNegate_1" ExportPath="/Script/EnhancedInput.InputModifierNegate'/Game/PicoInput/PicoEye.PicoEye:InputModifierNegate_1'"
+   End Object
+   Begin Object Class=/Script/EnhancedInput.InputModifierSwizzleAxis Name="InputModifierSwizzleAxis_0" ExportPath="/Script/EnhancedInput.InputModifierSwizzleAxis'/Game/PicoInput/PicoEye.PicoEye:InputModifierSwizzleAxis_0'"
+   End Object
+   Begin Object Class=/Script/EnhancedInput.InputModifierSwizzleAxis Name="InputModifierSwizzleAxis_1" ExportPath="/Script/EnhancedInput.InputModifierSwizzleAxis'/Game/PicoInput/PicoEye.PicoEye:InputModifierSwizzleAxis_1'"
+   End Object
+   Begin Object Class=/Script/EnhancedInput.InputModifierSwizzleAxis Name="InputModifierSwizzleAxis_2" ExportPath="/Script/EnhancedInput.InputModifierSwizzleAxis'/Game/PicoInput/PicoEye.PicoEye:InputModifierSwizzleAxis_2'"
+   End Object
+   Begin Object Name="InputModifierNegate_0" ExportPath="/Script/EnhancedInput.InputModifierNegate'/Game/PicoInput/PicoEye.PicoEye:InputModifierNegate_0'"
+   End Object
+   Begin Object Name="InputModifierNegate_1" ExportPath="/Script/EnhancedInput.InputModifierNegate'/Game/PicoInput/PicoEye.PicoEye:InputModifierNegate_1'"
+   End Object
+   Begin Object Name="InputModifierSwizzleAxis_0" ExportPath="/Script/EnhancedInput.InputModifierSwizzleAxis'/Game/PicoInput/PicoEye.PicoEye:InputModifierSwizzleAxis_0'"
+   End Object
+   Begin Object Name="InputModifierSwizzleAxis_1" ExportPath="/Script/EnhancedInput.InputModifierSwizzleAxis'/Game/PicoInput/PicoEye.PicoEye:InputModifierSwizzleAxis_1'"
+   End Object
+   Begin Object Name="InputModifierSwizzleAxis_2" ExportPath="/Script/EnhancedInput.InputModifierSwizzleAxis'/Game/PicoInput/PicoEye.PicoEye:InputModifierSwizzleAxis_2'"
+   End Object
+   Mappings(0)=(Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputEnter.PicoInputEnter'",Key=PICOTouch_Left_X_Click)
+   Mappings(1)=(Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputUp.PicoInputUp'",Key=PICOTouch_Left_Thumbstick_Up)
+   Mappings(2)=(Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputDown.PicoInputDown'",Key=PICOTouch_Left_Thumbstick_Down)
+   Mappings(3)=(PlayerMappableOptions=(Name="InputUp",DisplayName=NSLOCTEXT("", "C1D816D547C65A3E816BE8980ECFB9E2", "InputUp")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputUp.PicoInputUp'",Key=Up)
+   Mappings(4)=(PlayerMappableOptions=(Name="InputEnter",DisplayName=NSLOCTEXT("", "4E479E7C4E3DBE127E8987A8770ABE04", "InputEnter")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputEnter.PicoInputEnter'",Key=Enter)
+   Mappings(5)=(PlayerMappableOptions=(Name="InputDown",DisplayName=NSLOCTEXT("", "B6D1A23248178798BB3DF3A7358591C9", "InputDown")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputDown.PicoInputDown'",Key=Down)
+   Mappings(6)=(Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputLeft.PicoInputLeft'",Key=PICOTouch_Left_Thumbstick_Left)
+   Mappings(7)=(PlayerMappableOptions=(Name="InputLeft",DisplayName=NSLOCTEXT("", "CB07AE0C4CA507F75DA2C5BDCB9B2E0E", "InputLeft")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputLeft.PicoInputLeft'",Key=Left)
+   Mappings(8)=(Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputRight.PicoInputRight'",Key=PICOTouch_Left_Thumbstick_Right)
+   Mappings(9)=(PlayerMappableOptions=(Name="InputRight",DisplayName=NSLOCTEXT("", "17FD71414A52BBC4344B2695A5533B99", "InputRight")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputRight.PicoInputRight'",Key=Right)
+   Mappings(10)=(Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputEscape.PicoInputEscape'",Key=PICOTouch_Left_Grip_Click)
+   Mappings(11)=(PlayerMappableOptions=(Name="InputEscape",DisplayName=NSLOCTEXT("", "00CA5CAC4E09D0971DE5E79AE30D0A2F", "InputEscape")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputEscape.PicoInputEscape'",Key=Q)
+   Mappings(12)=(Modifiers=("/Script/EnhancedInput.InputModifierSwizzleAxis'InputModifierSwizzleAxis_0'"),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInput8.PicoInput8'",Key=PICOTouch_Right_Thumbstick_Y)
+   Mappings(13)=(PlayerMappableOptions=(Name="Input8",DisplayName=NSLOCTEXT("", "245F1C554B54687975BA7B835C7779C7", "Input8")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInput8.PicoInput8'",Key=PICOTouch_Right_Thumbstick_X)
+   Mappings(14)=(Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputStore.PicoInputStore'",Key=PICOTouch_Right_Trigger_Click)
+   Mappings(15)=(PlayerMappableOptions=(Name="PicoInputStore",DisplayName=NSLOCTEXT("", "9BD56E4447B4DB01AE8790AD1359F7E8", "PicoInputStore")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputStore.PicoInputStore'",Key=Add)
+   Mappings(16)=(PlayerMappableOptions=(Name="PicoInput8",DisplayName=NSLOCTEXT("", "83E612054193FEDC178BB18AA2282980", "PicoInput8")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInput8.PicoInput8'",Key=NumPadNine)
+   Mappings(17)=(PlayerMappableOptions=(Name="PicoInput8",DisplayName=NSLOCTEXT("", "6D22D076417D88DCBC6540BE33074C67", "PicoInput8")),Modifiers=("/Script/EnhancedInput.InputModifierSwizzleAxis'InputModifierSwizzleAxis_1'"),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInput8.PicoInput8'",Key=NumPadEight)
+   Mappings(18)=(PlayerMappableOptions=(Name="PicoInput8",DisplayName=NSLOCTEXT("", "36BFD29041CB23E5874F60A8B2E127A2", "PicoInput8")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInput8.PicoInput8'",Key=NumPadSeven)
+   Mappings(19)=(PlayerMappableOptions=(Name="PicoInput8",DisplayName=NSLOCTEXT("", "D9C13E6D4801C87CB67C04859473B23E", "PicoInput8")),Modifiers=("/Script/EnhancedInput.InputModifierNegate'InputModifierNegate_1'"),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInput8.PicoInput8'",Key=NumPadFour)
+   Mappings(20)=(PlayerMappableOptions=(Name="PicoInput8",DisplayName=NSLOCTEXT("", "06462DA44E4FEA603546FAB721111505", "PicoInput8")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInput8.PicoInput8'",Key=NumPadOne)
+   Mappings(21)=(PlayerMappableOptions=(Name="PicoInput8",DisplayName=NSLOCTEXT("", "56370FC64042E67A90A5DA9A17FE04E1", "PicoInput8")),Modifiers=("/Script/EnhancedInput.InputModifierSwizzleAxis'InputModifierSwizzleAxis_2'","/Script/EnhancedInput.InputModifierNegate'InputModifierNegate_0'"),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInput8.PicoInput8'",Key=NumPadTwo)
+   Mappings(22)=(PlayerMappableOptions=(Name="PicoInput8",DisplayName=NSLOCTEXT("", "A230920F44422A50ACAD0899C31C9488", "PicoInput8")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInput8.PicoInput8'",Key=NumPadThree)
+   Mappings(23)=(PlayerMappableOptions=(Name="PicoInput8",DisplayName=NSLOCTEXT("", "D8142F1548D44B27EC1356AE2A3E22CE", "PicoInput8")),Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInput8.PicoInput8'",Key=NumPadSix)
+   Mappings(24)=(Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputChangeEye.PicoInputChangeEye'",Key=PICOTouch_Right_Grip_Click)
+   Mappings(25)=(Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputChangeLayer.PicoInputChangeLayer'",Key=PICOTouch_Right_A_Click)
+   Mappings(26)=(Action="/Script/EnhancedInput.InputAction'/Game/PicoInput/PicoInputChangeProperty.PicoInputChangeProperty'",Key=PICOTouch_Right_B_Click)
+End Object

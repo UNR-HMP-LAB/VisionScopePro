@@ -1,5 +1,6 @@
 // Copyright University of Nevada, Reno. All rights reserved.
 
+using System.IO;
 using UnrealBuildTool;
 
 public class RAPD : ModuleRules
@@ -31,14 +32,14 @@ public class RAPD : ModuleRules
             }
         );
 
-		PublicIncludePaths.AddRange(new string[] { }); //"SRanipalEye/Public"
+        PublicIncludePaths.AddRange(new string[] { Path.Combine(ModuleDirectory, "Public", "UEigen3") }); //"SRanipalEye/Public"
 
-		// Uncomment if you are using Slate UI
-		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
+        // Uncomment if you are using Slate UI
+        // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 
-		// Uncomment if you are using online features
-		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
+        // Uncomment if you are using online features
+        // PrivateDependencyModuleNames.Add("OnlineSubsystem");
 
-		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
-	}
+        // To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
+    }
 }
