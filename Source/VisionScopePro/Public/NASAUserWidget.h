@@ -1,26 +1,18 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// NASAUserWidget.h
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
+#include "AstronautProfile.h"
 #include "NASAUserWidget.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class VISIONSCOPEPRO_API UNASAUserWidget : public UUserWidget
 {
-	GENERATED_BODY()
+    GENERATED_BODY()
 
 public:
-    UPROPERTY(BlueprintReadWrite, Category = "Selection")
-    FString SelectedAstronaut;
-
-    UPROPERTY(BlueprintReadOnly, Category = "Tests")
-    TArray<FString> TestSequence;
-
     UFUNCTION(BlueprintCallable, Category = "Menu")
     void SelectAstronaut(int32 AstronautNumber);
 
@@ -34,6 +26,6 @@ protected:
     virtual void NativeConstruct() override;
 
 private:
+    void UpdateProfileWithTestResult();
     FString GetAstronautDescription(int32 AstronautNumber) const;
-    void SetupTestSequence();
 };

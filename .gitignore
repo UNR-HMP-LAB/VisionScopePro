@@ -2,6 +2,9 @@
 .vs/
 .vsconfig
 
+# Visual Studio Code specific files
+.vscode/
+
 # Mac OS X hidden files
 .DS_Store
 
@@ -83,3 +86,6 @@ DerivedDataCache/*
 
 # Plugins as they are compiled
 Plugins/*
+
+# Temporary folder for encoding
+enc_temp_folder/

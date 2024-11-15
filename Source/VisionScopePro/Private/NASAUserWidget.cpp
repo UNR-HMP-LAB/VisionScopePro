@@ -1,29 +1,24 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+// NASAUserWidget.cpp
 
 #include "NASAUserWidget.h"
-#include "GameFramework/PlayerController.h"
+#include "NASAGameInstance.h"
 #include "Kismet/GameplayStatics.h"
-#include "Components/TextBlock.h"
+#include "Misc/DateTime.h"
 
 void UNASAUserWidget::NativeConstruct()
 {
     Super::NativeConstruct();
-
-    // Initialize the test sequence
-    SetupTestSequence();
 }
 
 void UNASAUserWidget::SelectAstronaut(int32 AstronautNumber)
 {
-    // Set the selected astronaut based on the number
-    SelectedAstronaut = FString::Printf(TEXT("Astronaut %d"), AstronautNumber);
-    FString Description = GetAstronautDescription(AstronautNumber);
-
-    // Display the astronaut description (TextBlock in the UI for this)
-    if (UTextBlock* AstronautInfoText = Cast<UTextBlock>(GetWidgetFromName("AstronautInfoText")))
+    // Get astronaut profile using GameInstance
+    if (UNASAGameInstance* GameInstance = Cast<UNASAGameInstance>(UGameplayStatics::GetGameInstance(this)))
     {
-        AstronautInfoText->SetText(FText::FromString(Description));
+        FString AstronautID = FString::Printf(TEXT("Astronaut %d"), AstronautNumber);
+        FAstronautProfile Profile;
+        GameInstance->LoadAstronautProfile(AstronautID, Profile);
+        // Now you can display or modify this profile as needed
     }
 }
 
@@ -40,42 +35,17 @@ FString UNASAUserWidget::GetTestOverview() const
 
 void UNASAUserWidget::StartTestSequence()
 {
-    // Start the first test
-    if (TestSequence.Num() > 0)
+    // Log the starting of each test, this would interact with the GameInstance for each test
+    if (UNASAGameInstance* GameInstance = Cast<UNASAGameInstance>(UGameplayStatics::GetGameInstance(this)))
     {
-        FString FirstTest = TestSequence[0];
-        // Call a function to launch the first test based on FirstTest name (through GameMode)
-        // Assuming a LaunchSpecificTest() function exists in GameMode or another manager
-        if (APlayerController* PC = UGameplayStatics::GetPlayerController(GetWorld(), 0))
-        {
-            PC->ConsoleCommand(FString::Printf(TEXT("LaunchSpecificTest %s"), *FirstTest));
-        }
-    }
-}
+        FAstronautTestRecord NewTestRecord;
+        NewTestRecord.Timestamp = FDateTime::UtcNow().ToIso8601();
+        NewTestRecord.RAPDTestFile = "RAPD_" + NewTestRecord.Timestamp + ".csv";
+        NewTestRecord.StaticVATestFile = "StaticVA_" + NewTestRecord.Timestamp + ".csv";
+        NewTestRecord.ColorTestFile = "Color_" + NewTestRecord.Timestamp + ".csv";
+        NewTestRecord.ContrastTestFile = "Contrast_" + NewTestRecord.Timestamp + ".csv";
+        NewTestRecord.VisualFieldTestFile = "VisualField_" + NewTestRecord.Timestamp + ".csv";
 
-void UNASAUserWidget::SetupTestSequence()
-{
-    // Define the sequence of tests
-    TestSequence.Add("RAPD");
-    TestSequence.Add("Static VA");
-    TestSequence.Add("Color");
-    TestSequence.Add("Contrast");
-    TestSequence.Add("Visual Field");
-}
-
-FString UNASAUserWidget::GetAstronautDescription(int32 AstronautNumber) const
-{
-    switch (AstronautNumber)
-    {
-    case 1:
-        return "Astronaut 1: .";
-    case 2:
-        return "Astronaut 2: .";
-    case 3:
-        return "Astronaut 3: .";
-    case 4:
-        return "Astronaut 4: .";
-    default:
-        return "Unknown Astronaut";
+        GameInstance->LogTestResult("AstronautID", NewTestRecord);
     }
 }

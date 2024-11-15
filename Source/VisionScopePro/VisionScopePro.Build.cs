@@ -7,16 +7,18 @@ public class VisionScopePro : ModuleRules
 	public VisionScopePro(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
-		PublicDependencyModuleNames.AddRange(
-            new string[] 
-            { 
-                "Core", 
-                "CoreUObject", 
-                "Engine", 
-                "InputCore", 
-                "RAPD", 
-                "PeriMapXR" 
+
+        PublicDependencyModuleNames.AddRange(
+            new string[]
+            {
+                "Core",
+                "CoreUObject",
+                "Engine",
+                "InputCore",
+                "Json",
+                "JsonUtilities", 
+                "RAPD",
+                "PeriMapXR"
             }
         );
 
