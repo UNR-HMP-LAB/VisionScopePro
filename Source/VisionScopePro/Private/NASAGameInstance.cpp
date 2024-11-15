@@ -86,3 +86,36 @@ void UNASAGameInstance::LogTestResult(FString AstronautID, const FAstronautTestR
     Profile.TestHistory.Add(NewTestRecord);
     SaveAstronautProfile(Profile);
 }
+
+void UNASAGameInstance::InitializeGameInstance()
+{
+    // Initialize the test sequence in the desired order
+    TestSequence.Add("RAPD");
+    TestSequence.Add("Static VA");
+    TestSequence.Add("Color");
+    TestSequence.Add("Contrast");
+    TestSequence.Add("Visual Field");
+
+    // Initialize other necessary variables as needed
+    CurrentTestIndex = 0;
+}
+
+void UNASAGameInstance::SetCurrentAstronautProfile(int32 AstronautID)
+{
+    // Convert integer ID to a string for file naming
+    FString AstronautIDString = FString::FromInt(AstronautID);
+
+    // Set the Astronaut ID in the CurrentAstronautProfile struct
+    CurrentAstronautProfile.AstronautID = AstronautIDString;
+
+    // Attempt to load the astronaut profile if it exists
+    if (!LoadAstronautProfile(AstronautIDString, CurrentAstronautProfile))
+    {
+        // If no existing profile, initialize an empty profile for the astronaut
+        UE_LOG(LogTemp, Warning, TEXT("Creating new profile for Astronaut ID: %d"), AstronautID);
+    }
+    else
+    {
+        UE_LOG(LogTemp, Log, TEXT("Loaded existing profile for Astronaut ID: %d"), AstronautID);
+    }
+}
