@@ -18,7 +18,8 @@ public class VisionScopePro : ModuleRules
                 "Json",
                 "JsonUtilities", 
                 "RAPD",
-                "PeriMapXR"
+                "PeriMapXR",
+                "UMG"
             }
         );
 

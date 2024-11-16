@@ -1,4 +1,5 @@
 // AstronautProfile.h
+// Copyright JoJo Petersky and University of Nevada, Reno. All rights reserved.
 
 #pragma once
 

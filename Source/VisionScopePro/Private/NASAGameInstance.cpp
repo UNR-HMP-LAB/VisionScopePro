@@ -1,10 +1,12 @@
 // NASAGameInstance.cpp
+// Copyright JoJo Petersky and University of Nevada, Reno. All rights reserved.
 
 #include "NASAGameInstance.h"
 #include "Misc/FileHelper.h"
 #include "Misc/Paths.h"
 #include "Serialization/JsonSerializer.h"
 #include "Serialization/JsonWriter.h"
+#include "Kismet/GameplayStatics.h"
 
 bool UNASAGameInstance::LoadAstronautProfile(FString AstronautID, FAstronautProfile& OutProfile)
 {
@@ -117,5 +119,98 @@ void UNASAGameInstance::SetCurrentAstronautProfile(int32 AstronautID)
     else
     {
         UE_LOG(LogTemp, Log, TEXT("Loaded existing profile for Astronaut ID: %d"), AstronautID);
+    }
+}
+
+void UNASAGameInstance::LaunchNextTest()
+{
+    FString CurrentTest = TestSequence[CurrentTestIndex];
+
+    if (CurrentTest == "RAPD")
+    {
+        UGameplayStatics::OpenLevel(this, FName("RAPD"));
+        DesiredTestType = "RAPD";
+    }
+    else if (CurrentTest == "Static VA")
+    {
+        UGameplayStatics::OpenLevel(this, FName("EyeTests"));
+        DesiredTestType = "Static VA";
+    }
+    else if (CurrentTest == "Color")
+    {
+        UGameplayStatics::OpenLevel(this, FName("ColorTest"));
+        DesiredTestType = "Color";
+    }
+    else if (CurrentTest == "Contrast")
+    {
+        UGameplayStatics::OpenLevel(this, FName("EyeTests"));
+        DesiredTestType = "CS";
+    }
+    else if (CurrentTest == "Visual Field")
+    {
+        UGameplayStatics::OpenLevel(this, FName("VisualField"));
+        DesiredTestType = "10-2";
+    }
+}
+
+void UNASAGameInstance::ShowTestDescription()
+{
+    if (TestSequence.IsEmpty())
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Test sequence is uninitialized!"));
+        return;
+    }
+
+    if (CurrentTestIndex >= TestSequence.Num())
+    {
+        UE_LOG(LogTemp, Error, TEXT("Invalid CurrentTestIndex: %d"), CurrentTestIndex);
+        return;
+    }
+
+    FString CurrentTest = TestSequence[CurrentTestIndex];
+    FString TestDescription;
+
+    // Switch or map logic for test descriptions
+    if (CurrentTest == "RAPD")
+    {
+        TestDescription = "This is the RAPD test. It will assess your pupillary response to light (~2 mins).";
+    }
+    else if (CurrentTest == "Static VA")
+    {
+        TestDescription = "This is the Static Visual Acuity test. It evaluates your ability to see stationary letters (~5 mins).";
+    }
+    else if (CurrentTest == "Color")
+    {
+        TestDescription = "This is the Color Vision test. It evaluates your ability to distinguish colors (~3 mins).";
+    }
+    else if (CurrentTest == "Contrast")
+    {
+        TestDescription = "This is the Contrast Sensitivity test. It evaluates your ability to detect contrast (~4 mins).";
+    }
+    else if (CurrentTest == "Visual Field")
+    {
+        TestDescription = "This is the Visual Field test. It evaluates your peripheral vision (~10 mins).";
+    }
+    else
+    {
+        TestDescription = "Unknown test.";
+        UE_LOG(LogTemp, Warning, TEXT("Unknown test type: %s"), *CurrentTest);
+    }
+
+    // Communicate the description to the widget
+    if (CurrentWidget)
+    {
+        if (UNASAUserWidget* NASAWidget = Cast<UNASAUserWidget>(CurrentWidget))
+        {
+            NASAWidget->UpdateTestDescription(TestDescription);
+        }
+        else
+        {
+            UE_LOG(LogTemp, Warning, TEXT("Current widget is not of type UNASAUserWidget!"));
+        }
+    }
+    else
+    {
+        UE_LOG(LogTemp, Warning, TEXT("No active widget found to update test description."));
     }
 }
