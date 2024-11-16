@@ -7,6 +7,7 @@
 #include "Engine/GameInstance.h"
 #include "AstronautProfile.h"
 #include "NASAUserWidget.h"
+#include "NASATestDescriptionWidget.h"
 #include "NASAGameInstance.generated.h"
 
 UCLASS()

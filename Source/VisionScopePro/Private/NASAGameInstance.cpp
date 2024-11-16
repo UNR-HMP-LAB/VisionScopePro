@@ -155,22 +155,23 @@ void UNASAGameInstance::LaunchNextTest()
 
 void UNASAGameInstance::ShowTestDescription()
 {
+    // Validate the test sequence and current index
     if (TestSequence.IsEmpty())
     {
         UE_LOG(LogTemp, Warning, TEXT("Test sequence is uninitialized!"));
         return;
     }
 
-    if (CurrentTestIndex >= TestSequence.Num())
+    if (!TestSequence.IsValidIndex(CurrentTestIndex))
     {
         UE_LOG(LogTemp, Error, TEXT("Invalid CurrentTestIndex: %d"), CurrentTestIndex);
         return;
     }
 
+    // Retrieve the current test and its description
     FString CurrentTest = TestSequence[CurrentTestIndex];
     FString TestDescription;
 
-    // Switch or map logic for test descriptions
     if (CurrentTest == "RAPD")
     {
         TestDescription = "This is the RAPD test. It will assess your pupillary response to light (~2 mins).";
@@ -197,20 +198,13 @@ void UNASAGameInstance::ShowTestDescription()
         UE_LOG(LogTemp, Warning, TEXT("Unknown test type: %s"), *CurrentTest);
     }
 
-    // Communicate the description to the widget
+    // Remove the current widget from the viewport if one exists
     if (CurrentWidget)
     {
-        if (UNASAUserWidget* NASAWidget = Cast<UNASAUserWidget>(CurrentWidget))
-        {
-            NASAWidget->UpdateTestDescription(TestDescription);
-        }
-        else
-        {
-            UE_LOG(LogTemp, Warning, TEXT("Current widget is not of type UNASAUserWidget!"));
-        }
+        CurrentWidget->RemoveFromParent();
+        CurrentWidget = nullptr;
     }
-    else
-    {
-        UE_LOG(LogTemp, Warning, TEXT("No active widget found to update test description."));
-    }
+
+    // At this point, a Blueprint script or logic should spawn the appropriate widget and handle the UI setup
+    UE_LOG(LogTemp, Log, TEXT("Blueprint should handle spawning and displaying the test description widget."));
 }
