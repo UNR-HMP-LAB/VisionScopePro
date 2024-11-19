@@ -8,36 +8,22 @@
 #include "AstronautProfile.h"
 #include "NASAUserWidget.generated.h"
 
+// UNASAUserWidget: Handles UI logic for astronaut selection, test sequence management, and progress tracking.
 UCLASS()
 class VISIONSCOPEPRO_API UNASAUserWidget : public UUserWidget
 {
     GENERATED_BODY()
 
 public:
-    // Called when the user selects an astronaut
+    // Updates the game instance with the selected astronaut, ensuring their profile is loaded
     UFUNCTION(BlueprintCallable, Category = "Menu")
     void SelectAstronaut(int32 AstronautNumber);
 
-    // Retrieve the overview of the current test sequence
-    UFUNCTION(BlueprintCallable, Category = "Menu")
-    FString GetTestOverview() const;
-
-    // Starts the test sequence for the currently selected astronaut
+    // Starts the predefined sequence of tests for the currently selected astronaut
     UFUNCTION(BlueprintCallable, Category = "Menu")
     void StartTestSequence();
 
-    // Display progress of the current test sequence
-    UFUNCTION(BlueprintCallable, Category = "Menu")
-    FString ShowProgress() const;
-
-    // Function to update the test description
-    UFUNCTION(BlueprintCallable, Category = "UI")
-    void UpdateTestDescription(const FString& TestDescription);
-
 protected:
-    // Initialize widget behavior
+    // Initializes the widget by linking it to the game instance and setting up default behavior
     virtual void NativeConstruct() override;
-
-private:
-    void ResetWidgetState();
 };

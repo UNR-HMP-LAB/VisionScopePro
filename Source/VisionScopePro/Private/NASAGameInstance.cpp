@@ -8,18 +8,23 @@
 #include "Serialization/JsonWriter.h"
 #include "Kismet/GameplayStatics.h"
 
+// Loads a saved astronaut profile from a JSON file or initializes a new profile if unavailable
+// Returns true if the profile was successfully loaded, false if a new profile was created
 bool UNASAGameInstance::LoadAstronautProfile(FString AstronautID, FAstronautProfile& OutProfile)
 {
+    // Determine file path for the astronaut profile
     FString FilePath = FPaths::ProjectSavedDir() + AstronautID + "_Profile.json";
 
     FString FileContent;
+    // If the file does not exist, return a new profile with the given ID
     if (!FFileHelper::LoadFileToString(FileContent, *FilePath))
     {
-        // If loading fails, it may be a new profile
+        // Initialize new profile if no file is found
         OutProfile.AstronautID = AstronautID;
         return false;
     }
 
+    // Parse the JSON content into a profile object
     TSharedPtr<FJsonObject> JsonObject;
     TSharedRef<TJsonReader<>> Reader = TJsonReaderFactory<>::Create(FileContent);
 
@@ -27,6 +32,7 @@ bool UNASAGameInstance::LoadAstronautProfile(FString AstronautID, FAstronautProf
     {
         OutProfile.AstronautID = JsonObject->GetStringField("AstronautID");
 
+        // Deserialize test history if present in the JSON
         const TArray<TSharedPtr<FJsonValue>>* TestHistoryArray;
         if (JsonObject->TryGetArrayField("TestHistory", TestHistoryArray))
         {
@@ -48,13 +54,18 @@ bool UNASAGameInstance::LoadAstronautProfile(FString AstronautID, FAstronautProf
     return false;
 }
 
+// Saves the given astronaut profile to a JSON file
+// Serializes profile data, including test history, for persistent storage
 bool UNASAGameInstance::SaveAstronautProfile(const FAstronautProfile& Profile)
 {
+    // Construct file path based on the astronaut ID
     FString FilePath = FPaths::ProjectSavedDir() + Profile.AstronautID + "_Profile.json";
 
+    // Create a JSON object to represent the profile
     TSharedPtr<FJsonObject> JsonObject = MakeShareable(new FJsonObject);
     JsonObject->SetStringField("AstronautID", Profile.AstronautID);
 
+    // Serialize test history into a JSON array
     TArray<TSharedPtr<FJsonValue>> TestHistoryArray;
     for (const FAstronautTestRecord& Record : Profile.TestHistory)
     {
@@ -69,6 +80,7 @@ bool UNASAGameInstance::SaveAstronautProfile(const FAstronautProfile& Profile)
     }
     JsonObject->SetArrayField("TestHistory", TestHistoryArray);
 
+    // Write JSON data to a string and save it to the file
     FString OutputString;
     TSharedRef<TJsonWriter<>> Writer = TJsonWriterFactory<>::Create(&OutputString);
     FJsonSerializer::Serialize(JsonObject.ToSharedRef(), Writer);
@@ -76,44 +88,49 @@ bool UNASAGameInstance::SaveAstronautProfile(const FAstronautProfile& Profile)
     return FFileHelper::SaveStringToFile(OutputString, *FilePath);
 }
 
+// Logs a new test result by appending it to the astronaut's profile
+// If the profile does not exist, initializes a new profile
 void UNASAGameInstance::LogTestResult(FString AstronautID, const FAstronautTestRecord& NewTestRecord)
 {
     FAstronautProfile Profile;
+    // Load existing profile or create a new one if not found
     if (!LoadAstronautProfile(AstronautID, Profile))
     {
-        // New profile if loading fails
         Profile.AstronautID = AstronautID;
     }
 
+    // Append the new test record and save the updated profile
     Profile.TestHistory.Add(NewTestRecord);
     SaveAstronautProfile(Profile);
 }
 
+// Initializes the test sequence and resets relevant variables for gameplay
 void UNASAGameInstance::InitializeGameInstance()
 {
-    // Initialize the test sequence in the desired order
+    // Define the sequence of tests in the desired order
     TestSequence.Add("RAPD");
     TestSequence.Add("Static VA");
     TestSequence.Add("Color");
     TestSequence.Add("Contrast");
     TestSequence.Add("Visual Field");
 
-    // Initialize other necessary variables as needed
+    // Reset the current test index to the beginning of the sequence
     CurrentTestIndex = 0;
 }
 
+// Sets the active astronaut profile using the given ID
+// Attempts to load the profile from disk, creating a new one if it doesn't exist
 void UNASAGameInstance::SetCurrentAstronautProfile(int32 AstronautID)
 {
-    // Convert integer ID to a string for file naming
+    // Convert the astronaut ID to a string for file handling
     FString AstronautIDString = FString::FromInt(AstronautID);
 
     // Set the Astronaut ID in the CurrentAstronautProfile struct
     CurrentAstronautProfile.AstronautID = AstronautIDString;
 
-    // Attempt to load the astronaut profile if it exists
+    // Load the astronaut profile or initialize a new one if not found
     if (!LoadAstronautProfile(AstronautIDString, CurrentAstronautProfile))
     {
-        // If no existing profile, initialize an empty profile for the astronaut
         UE_LOG(LogTemp, Warning, TEXT("Creating new profile for Astronaut ID: %d"), AstronautID);
     }
     else
@@ -122,40 +139,53 @@ void UNASAGameInstance::SetCurrentAstronautProfile(int32 AstronautID)
     }
 }
 
+// Advances to the next test in the sequence by changing levels and updating test-specific logic
 void UNASAGameInstance::LaunchNextTest()
 {
+    // Determine the current test based on the sequence index
+    if (!TestSequence.IsValidIndex(CurrentTestIndex))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Invalid CurrentTestIndex: %d"), CurrentTestIndex);
+        return;
+    }
     FString CurrentTest = TestSequence[CurrentTestIndex];
 
+    // Open the corresponding level and set the desired test type
     if (CurrentTest == "RAPD")
     {
-        UGameplayStatics::OpenLevel(this, FName("RAPD"));
         DesiredTestType = "RAPD";
+        UGameplayStatics::OpenLevel(this, FName("RAPD"));
     }
     else if (CurrentTest == "Static VA")
     {
-        UGameplayStatics::OpenLevel(this, FName("EyeTests"));
         DesiredTestType = "Static VA";
+        UGameplayStatics::OpenLevel(this, FName("EyeTests"));
     }
     else if (CurrentTest == "Color")
     {
-        UGameplayStatics::OpenLevel(this, FName("ColorTest"));
         DesiredTestType = "Color";
+        UGameplayStatics::OpenLevel(this, FName("ColorTest"));
     }
     else if (CurrentTest == "Contrast")
     {
-        UGameplayStatics::OpenLevel(this, FName("EyeTests"));
         DesiredTestType = "CS";
+        UGameplayStatics::OpenLevel(this, FName("EyeTests"));
     }
     else if (CurrentTest == "Visual Field")
     {
-        UGameplayStatics::OpenLevel(this, FName("VisualField"));
         DesiredTestType = "10-2";
+        UGameplayStatics::OpenLevel(this, FName("VisualField"));
     }
+
+    // Increment to the next test for subsequent calls
+    CurrentTestIndex++;
 }
 
+// Displays a description for the current test based on its type
+// Removes any existing widget before allowing a Blueprint to handle UI setup
 void UNASAGameInstance::ShowTestDescription()
 {
-    // Validate the test sequence and current index
+    // Validate that the test sequence and current index are properly initialized
     if (TestSequence.IsEmpty())
     {
         UE_LOG(LogTemp, Warning, TEXT("Test sequence is uninitialized!"));
@@ -168,7 +198,7 @@ void UNASAGameInstance::ShowTestDescription()
         return;
     }
 
-    // Retrieve the current test and its description
+    // Determine the description for the current test
     FString CurrentTest = TestSequence[CurrentTestIndex];
     FString TestDescription;
 
@@ -205,6 +235,28 @@ void UNASAGameInstance::ShowTestDescription()
         CurrentWidget = nullptr;
     }
 
-    // At this point, a Blueprint script or logic should spawn the appropriate widget and handle the UI setup
-    UE_LOG(LogTemp, Log, TEXT("Blueprint should handle spawning and displaying the test description widget."));
+    // Spawn the Test Description Widget
+    if (UWorld* World = GetWorld())
+    {
+        if (TestDescriptionWidgetClass)
+        {
+            CurrentWidget = CreateWidget<UUserWidget>(World, TestDescriptionWidgetClass);
+            if (CurrentWidget)
+            {
+                CurrentWidget->AddToViewport();
+
+                if (UNASATestDescriptionWidget* TestDescriptionWidget = Cast<UNASATestDescriptionWidget>(CurrentWidget))
+                {
+                    TestDescriptionWidget->StartTestDescription(TestDescription);
+
+                    // Bind the "Continue" button to start the RAPD test or next action
+                    TestDescriptionWidget->OnContinueClicked.AddDynamic(this, &UNASAGameInstance::LaunchNextTest);
+                }
+            }
+        }
+        else
+        {
+            UE_LOG(LogTemp, Error, TEXT("TestDescriptionWidgetClass is not set!"));
+        }
+    }
 }
