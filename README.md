@@ -57,15 +57,15 @@ This project is supported by NASA grants and the collaborative efforts of the Hu
 ## Contact
 For more information, inquiries, or feedback, please contact:
 
-**Project Lead**: JoJo Petersky  
-- GitHub: [@hotcuppajojo](https://github.com/hotcuppajojo)  
-- Email: [jpetersky@unr.edu](mailto:jpetersky@unr.edu)  
-- LinkedIn: [https://www.linkedin.com/in/jojopetersky/](https://www.linkedin.com/in/jojopetersky/)
-
 **Advisor**: Dr. Alireza Tavakkoli  
 - Phone: (775) 682-8426  
 - Email: [tavakkol@unr.edu](mailto:tavakkol@unr.edu)  
 - Website: [https://www.cse.unr.edu/~alit/](https://www.cse.unr.edu/~alit/)
+
+**Project Lead/VF/NASA Test Contributor**: JoJo Petersky  
+- GitHub: [@hotcuppajojo](https://github.com/hotcuppajojo)  
+- Email: [jpetersky@unr.edu](mailto:jpetersky@unr.edu)  
+- LinkedIn: [https://www.linkedin.com/in/jojopetersky/](https://www.linkedin.com/in/jojopetersky/)
 
 **RAPD/Data Analysis Contributor**: Prithul Sarker
 - GitHub: [@prithuls](https://github.com/prithuls)  
