@@ -67,12 +67,12 @@ For more information, inquiries, or feedback, please contact:
 - Email: [tavakkol@unr.edu](mailto:tavakkol@unr.edu)  
 - Website: [https://www.cse.unr.edu/~alit/](https://www.cse.unr.edu/~alit/)
 
-**RAPD Contributor**: Prithul Sarker
+**RAPD/Data Analysis Contributor**: Prithul Sarker
 - GitHub: [@prithuls](https://github.com/prithuls)  
 - Email: [prithulsarker@unr.edu](mailto:prithulsarker@unr.edu)
 - LinkedIn: [https://www.linkedin.com/in/prithulsarker/](https://www.linkedin.com/in/prithulsarker/)
 
-**RAPD Contributor**: Nasif Zaman
+**RAPD/CS/Color/VA/Amsler Contributor**: Nasif Zaman
 - GitHub: [@Znasif](https://github.com/Znasif)  
 - Email: [vznasif@gmail.com](mailto:vznasif@gmail.com)
 - LinkedIn: [https://www.linkedin.com/in/nasif-zaman/](https://www.linkedin.com/in/nasif-zaman/)
