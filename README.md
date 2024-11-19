@@ -16,7 +16,7 @@ VisionScopePro is designed to modernize ophthalmic diagnostic testing and vision
 ## Features
 - **Automated Test Transitions**: Dynamic management of test sequences, including pre-test explanations and seamless transitions between tests such as RAPD, Static VA, Color Vision, Contrast Sensitivity, Visual Field, and DVA.
 - **RAPD (Rapid Automated Pupil Test)**: Developed by Nasif Zaman with Prithul Sarker, this fully automated pupil reflex test has been enhanced with XR capabilities.
-- **PeriMapXR**: Adapted visual field testing module for XR environments.
+- **PeriMapXR (Automated Perimetry Test)**: Developed by JoJo Petersky, this visual field testing module adapted for XR environments will undergo clinical trials with results to be published upon completion.
 - **Color Vision Testing**: Includes both Ishihara plates and advanced cone contrast testing for precision analysis.
 - **Dynamic Visual Acuity (DVA)**: Head-mounted XR-based testing developed as part of a NASA-funded initiative to detect vision changes from spaceflight, validated against traditional methods.
 - **Contrast Sensitivity Testing**: Evaluates a patient’s ability to detect subtle contrasts in visual stimuli.
@@ -25,6 +25,7 @@ VisionScopePro is designed to modernize ophthalmic diagnostic testing and vision
 
 ## Integration of Recent Research
 VisionScopePro incorporates methodologies and tests from cutting-edge research, including:
+- **RAPD Testing**: Based on research by Nasif Zaman and Prithul Sarker, *"Test–Retest Reliability of Virtual Reality Devices in Quantifying for Relative Afferent Pupillary Defect"* (Translational Vision Science & Technology, June 2023). This study demonstrated the feasibility of automating the Swinging Flashlight Test (SFT) using virtual reality, ensuring reproducibility and reliability across test sessions and devices.
 - **Color Deficiency Testing and Aid**: Incorporates findings from XR-based studies on color-deficient observers (Nasif Zaman and Alireza Tavakkoli, Optica Fall Vision Meeting 2023).
 - **Dynamic Visual Acuity (DVA) Assessment**: Integrates findings from studies on XR-based DVA testing to address visual-vestibular conflict and spaceflight-induced sensorimotor adaptations (Nasif Zaman et al., NASA-funded research).
 
