@@ -46,10 +46,10 @@ Detailed instructions for setting up VisionScopePro will be available upon the p
 - Contact the project lead for troubleshooting or additional setup assistance.
 
 ## Contributing
-VisionScopePro is a proprietary project. Contributions are restricted to the Human-Machine Perception Lab team. External collaborations are welcomed through prior approval from the project lead.
+VisionScopePro is a proprietary project. Contributions are restricted to the Human-Machine Perception Lab team. External collaborations are welcomed through prior approval from the project lead or advisor.
 
 ## License
-VisionScopePro is proprietary software. All rights are reserved by the Human-Machine Perception Lab at the University of Nevada, Reno. Unauthorized copying, modifying, distribution, or use of this software is strictly prohibited without explicit permission from the project lead.
+VisionScopePro is proprietary software. All rights are reserved by the Human-Machine Perception Lab at the University of Nevada, Reno. Unauthorized copying, modifying, distribution, or use of this software is strictly prohibited without explicit permission from our contributors or the HMP Lab.
 
 ## Acknowledgments
 This project is supported by NASA grants and the collaborative efforts of the Human-Machine Perception Lab at UNR. Special thanks to Nasif Zaman, Prithul Sarker, and other collaborators for their contributions to RAPD and DVA testing research.
