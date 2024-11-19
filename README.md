@@ -15,7 +15,7 @@ VisionScopePro is designed to modernize ophthalmic diagnostic testing and vision
 
 ## Features
 - **Automated Test Transitions**: Dynamic management of test sequences, including pre-test explanations and seamless transitions between tests such as RAPD, Static VA, Color Vision, Contrast Sensitivity, Visual Field, and DVA.
-- **RAPD (Rapid Automated Pupil Test)**: Developed by Nasif Zaman with Prithul Sarker, this fully automated pupil reflex test has been enhanced with XR capabilities.
+- **RAPD (Relative Afferent Pupillary Defect Test)**: Developed by Nasif Zaman with Prithul Sarker, this fully automated pupil reflex test has been enhanced with XR capabilities.
 - **PeriMapXR (Automated Perimetry Test)**: Developed by JoJo Petersky, this visual field testing module adapted for XR environments will undergo clinical trials with results to be published upon completion.
 - **Color Vision Testing**: Includes both Ishihara plates and advanced cone contrast testing for precision analysis.
 - **Dynamic Visual Acuity (DVA)**: Head-mounted XR-based testing developed as part of a NASA-funded initiative to detect vision changes from spaceflight, validated against traditional methods.
