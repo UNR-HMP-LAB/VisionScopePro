@@ -25,6 +25,11 @@ public:
     UPROPERTY(BlueprintAssignable, Category = "Events")
     FOnContinueClicked OnContinueClicked;
 
+    // Function to initialize and update both progress and astronaut ID dynamically
+    UFUNCTION(BlueprintCallable, Category = "UI")
+    void UpdateTestUI();
+
+
 protected:
     // Sets up widget bindings and initializes variables when the widget is constructed
     virtual void NativeConstruct() override;
@@ -66,4 +71,12 @@ private:
     // UI element for the "Continue" button, allowing user interaction
     UPROPERTY(meta = (BindWidget))
     class UButton* ContinueButton;
+
+    // UI element to show test progress on test description widget
+    UPROPERTY(meta = (BindWidget))
+    class UEditableTextBox* ProgressText;
+
+    // UI element to show current selected astronaut ID
+    UPROPERTY(meta = (BindWidget))
+    class UEditableTextBox* AstronautIDText;
 };

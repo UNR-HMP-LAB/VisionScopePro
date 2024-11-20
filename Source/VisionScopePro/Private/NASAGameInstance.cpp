@@ -137,6 +137,15 @@ void UNASAGameInstance::SetCurrentAstronautProfile(int32 AstronautID)
     {
         UE_LOG(LogTemp, Log, TEXT("Loaded existing profile for Astronaut ID: %d"), AstronautID);
     }
+
+    // Update the test description widget if it's active
+    if (CurrentWidget)
+    {
+        if (UNASATestDescriptionWidget* TestDescriptionWidget = Cast<UNASATestDescriptionWidget>(CurrentWidget))
+        {
+            TestDescriptionWidget->UpdateTestUI();
+        }
+    }
 }
 
 // Advances to the next test in the sequence by changing levels and updating test-specific logic
@@ -179,6 +188,15 @@ void UNASAGameInstance::LaunchNextTest()
 
     // Increment to the next test for subsequent calls
     CurrentTestIndex++;
+
+    // Update the test description widget if it's active
+    if (CurrentWidget)
+    {
+        if (UNASATestDescriptionWidget* TestDescriptionWidget = Cast<UNASATestDescriptionWidget>(CurrentWidget))
+        {
+            TestDescriptionWidget->UpdateTestUI();
+        }
+    }
 }
 
 // Displays a description for the current test based on its type

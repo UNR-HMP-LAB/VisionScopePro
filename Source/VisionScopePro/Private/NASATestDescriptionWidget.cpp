@@ -5,11 +5,16 @@
 #include "Components/EditableTextBox.h"
 #include "Components/Button.h"
 #include "TimerManager.h"
+#include "NASAGameInstance.h"
+#include "Kismet/GameplayStatics.h"
 
 // Initializes the widget by setting up bindings and preparing visual states
 void UNASATestDescriptionWidget::NativeConstruct()
 {
     Super::NativeConstruct();
+
+    // Initialize the UI
+    UpdateTestUI();
 
     // Initialize caret visual for typewriter effect
     Caret = "_";
@@ -22,10 +27,22 @@ void UNASATestDescriptionWidget::NativeConstruct()
         ContinueButton->OnClicked.AddDynamic(this, &UNASATestDescriptionWidget::HandleContinueClicked);
     }
 
-    // Make the text box read-only
+    // Make the test description text box read-only
     if (TestDescriptionText)
     {
         TestDescriptionText->SetIsReadOnly(true); 
+    }
+
+    // Make the test progress text box read-only
+    if (ProgressText)
+    {
+        ProgressText->SetIsReadOnly(true);
+    }
+
+    // Make the astronaut ID text box read-only
+    if (AstronautIDText)
+    {
+        AstronautIDText->SetIsReadOnly(true);
     }
 }
 
@@ -121,4 +138,31 @@ void UNASATestDescriptionWidget::HandleContinueClicked()
 
     // Trigger the delegate to signal the continue event that the user is ready to continue
     OnContinueClicked.Broadcast();
+}
+// Dynamically updates ProgressText and AstronautIDText based on the TestSequence in the GameInstance
+void UNASATestDescriptionWidget::UpdateTestUI()
+{
+    if (const UNASAGameInstance* GameInstance = Cast<UNASAGameInstance>(UGameplayStatics::GetGameInstance(this)))
+    {
+        // Update Progress Text: Test X of Y
+        if (ProgressText && !GameInstance->TestSequence.IsEmpty())
+        {
+            FString Progress = FString::Printf(TEXT("Test %d of %d"),
+                                               GameInstance->CurrentTestIndex + 1,
+                                               GameInstance->TestSequence.Num());
+            ProgressText->SetText(FText::FromString(Progress));
+            UE_LOG(LogTemp, Log, TEXT("Progress Updated: %s"), *Progress);
+        }
+        else if (ProgressText)
+        {
+            ProgressText->SetText(FText::FromString("No tests available."));
+        }
+
+        // Update Astronaut ID Text
+        if (AstronautIDText)
+        {
+            AstronautIDText->SetText(FText::FromString(GameInstance->CurrentAstronautProfile.AstronautID));
+            UE_LOG(LogTemp, Log, TEXT("Astronaut ID Updated: %s"), *GameInstance->CurrentAstronautProfile.AstronautID);
+        }
+    }
 }
