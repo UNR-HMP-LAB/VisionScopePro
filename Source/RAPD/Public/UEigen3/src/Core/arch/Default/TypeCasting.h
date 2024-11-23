@@ -11,14 +11,13 @@
 #ifndef EIGEN_GENERIC_TYPE_CASTING_H
 #define EIGEN_GENERIC_TYPE_CASTING_H
 
-#include "../../InternalHeaderCheck.h"
-
 namespace Eigen {
 
 namespace internal {
 
 template<>
 struct scalar_cast_op<float, Eigen::half> {
+  EIGEN_EMPTY_STRUCT_CTOR(scalar_cast_op)
   typedef Eigen::half result_type;
   EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE Eigen::half operator() (const float& a) const {
     #if (defined(EIGEN_HAS_CUDA_FP16) && defined(EIGEN_CUDA_ARCH) && EIGEN_CUDA_ARCH >= 300) || \
@@ -37,6 +36,7 @@ struct functor_traits<scalar_cast_op<float, Eigen::half> >
 
 template<>
 struct scalar_cast_op<int, Eigen::half> {
+  EIGEN_EMPTY_STRUCT_CTOR(scalar_cast_op)
   typedef Eigen::half result_type;
   EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE Eigen::half operator() (const int& a) const {
     #if (defined(EIGEN_HAS_CUDA_FP16) && defined(EIGEN_CUDA_ARCH) && EIGEN_CUDA_ARCH >= 300) || \
@@ -55,6 +55,7 @@ struct functor_traits<scalar_cast_op<int, Eigen::half> >
 
 template<>
 struct scalar_cast_op<Eigen::half, float> {
+  EIGEN_EMPTY_STRUCT_CTOR(scalar_cast_op)
   typedef float result_type;
   EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE float operator() (const Eigen::half& a) const {
     #if (defined(EIGEN_HAS_CUDA_FP16) && defined(EIGEN_CUDA_ARCH) && EIGEN_CUDA_ARCH >= 300) || \
@@ -73,6 +74,7 @@ struct functor_traits<scalar_cast_op<Eigen::half, float> >
 
 template<>
 struct scalar_cast_op<float, Eigen::bfloat16> {
+  EIGEN_EMPTY_STRUCT_CTOR(scalar_cast_op)
   typedef Eigen::bfloat16 result_type;
   EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE Eigen::bfloat16 operator() (const float& a) const {
     return Eigen::bfloat16(a);
@@ -86,6 +88,7 @@ struct functor_traits<scalar_cast_op<float, Eigen::bfloat16> >
 
 template<>
 struct scalar_cast_op<int, Eigen::bfloat16> {
+  EIGEN_EMPTY_STRUCT_CTOR(scalar_cast_op)
   typedef Eigen::bfloat16 result_type;
   EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE Eigen::bfloat16 operator() (const int& a) const {
     return Eigen::bfloat16(static_cast<float>(a));
@@ -99,6 +102,7 @@ struct functor_traits<scalar_cast_op<int, Eigen::bfloat16> >
 
 template<>
 struct scalar_cast_op<Eigen::bfloat16, float> {
+  EIGEN_EMPTY_STRUCT_CTOR(scalar_cast_op)
   typedef float result_type;
   EIGEN_DEVICE_FUNC EIGEN_STRONG_INLINE float operator() (const Eigen::bfloat16& a) const {
     return static_cast<float>(a);

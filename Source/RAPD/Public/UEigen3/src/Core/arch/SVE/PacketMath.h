@@ -10,8 +10,6 @@
 #ifndef EIGEN_PACKET_MATH_SVE_H
 #define EIGEN_PACKET_MATH_SVE_H
 
-#include "../../InternalHeaderCheck.h"
-
 namespace Eigen
 {
 namespace internal
@@ -151,7 +149,7 @@ EIGEN_STRONG_INLINE PacketXi pmax<PacketXi>(const PacketXi& a, const PacketXi& b
 template <>
 EIGEN_STRONG_INLINE PacketXi pcmp_le<PacketXi>(const PacketXi& a, const PacketXi& b)
 {
-  return svdup_n_s32_z(svcmple_s32(svptrue_b32(), a, b), 0xffffffffu);
+  return svdup_n_s32_z(svcmplt_s32(svptrue_b32(), a, b), 0xffffffffu);
 }
 
 template <>
@@ -211,13 +209,13 @@ EIGEN_STRONG_INLINE PacketXi parithmetic_shift_right(PacketXi a)
 template <int N>
 EIGEN_STRONG_INLINE PacketXi plogical_shift_right(PacketXi a)
 {
-  return svreinterpret_s32_u32(svlsr_n_u32_z(svptrue_b32(), svreinterpret_u32_s32(a), N));
+  return svreinterpret_s32_u32(svlsr_u32_z(svptrue_b32(), svreinterpret_u32_s32(a), svdup_n_u32_z(svptrue_b32(), N)));
 }
 
 template <int N>
 EIGEN_STRONG_INLINE PacketXi plogical_shift_left(PacketXi a)
 {
-  return svlsl_n_s32_z(svptrue_b32(), a, N);
+  return svlsl_s32_z(svptrue_b32(), a, svdup_n_u32_z(svptrue_b32(), N));
 }
 
 template <>
@@ -525,7 +523,7 @@ EIGEN_STRONG_INLINE PacketXf pmax<PropagateNumbers, PacketXf>(const PacketXf& a,
 template <>
 EIGEN_STRONG_INLINE PacketXf pcmp_le<PacketXf>(const PacketXf& a, const PacketXf& b)
 {
-  return svreinterpret_f32_u32(svdup_n_u32_z(svcmple_f32(svptrue_b32(), a, b), 0xffffffffu));
+  return svreinterpret_f32_u32(svdup_n_u32_z(svcmplt_f32(svptrue_b32(), a, b), 0xffffffffu));
 }
 
 template <>

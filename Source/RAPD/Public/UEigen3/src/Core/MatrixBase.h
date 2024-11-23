@@ -11,8 +11,6 @@
 #ifndef EIGEN_MATRIXBASE_H
 #define EIGEN_MATRIXBASE_H
 
-#include "./InternalHeaderCheck.h"
-
 namespace Eigen {
 
 /** \class MatrixBase
@@ -94,8 +92,8 @@ template<typename Derived> class MatrixBase
 
 #ifndef EIGEN_PARSED_BY_DOXYGEN
     /** type of the equivalent square matrix */
-    typedef Matrix<Scalar, internal::max_size_prefer_dynamic(RowsAtCompileTime, ColsAtCompileTime),
-                           internal::max_size_prefer_dynamic(RowsAtCompileTime, ColsAtCompileTime)> SquareMatrixType;
+    typedef Matrix<Scalar,EIGEN_SIZE_MAX(RowsAtCompileTime,ColsAtCompileTime),
+                          EIGEN_SIZE_MAX(RowsAtCompileTime,ColsAtCompileTime)> SquareMatrixType;
 #endif // not EIGEN_PARSED_BY_DOXYGEN
 
     /** \returns the size of the main diagonal, which is min(rows(),cols()).
@@ -109,10 +107,10 @@ template<typename Derived> class MatrixBase
     /** \internal Represents a matrix with all coefficients equal to one another*/
     typedef CwiseNullaryOp<internal::scalar_constant_op<Scalar>,PlainObject> ConstantReturnType;
     /** \internal the return type of MatrixBase::adjoint() */
-    typedef std::conditional_t<NumTraits<Scalar>::IsComplex,
-               CwiseUnaryOp<internal::scalar_conjugate_op<Scalar>, ConstTransposeReturnType>,
-               ConstTransposeReturnType
-            > AdjointReturnType;
+    typedef typename internal::conditional<NumTraits<Scalar>::IsComplex,
+                        CwiseUnaryOp<internal::scalar_conjugate_op<Scalar>, ConstTransposeReturnType>,
+                        ConstTransposeReturnType
+                     >::type AdjointReturnType;
     /** \internal Return type of eigenvalues() */
     typedef Matrix<std::complex<RealScalar>, internal::traits<Derived>::ColsAtCompileTime, 1, ColMajor> EigenvaluesReturnType;
     /** \internal the return type of identity */
@@ -208,22 +206,28 @@ template<typename Derived> class MatrixBase
     EIGEN_DEVICE_FUNC
     DiagonalReturnType diagonal();
 
-    typedef Diagonal<const Derived> ConstDiagonalReturnType;
+    typedef typename internal::add_const<Diagonal<const Derived> >::type ConstDiagonalReturnType;
     EIGEN_DEVICE_FUNC
-    const ConstDiagonalReturnType diagonal() const;
+    ConstDiagonalReturnType diagonal() const;
+
+    template<int Index> struct DiagonalIndexReturnType { typedef Diagonal<Derived,Index> Type; };
+    template<int Index> struct ConstDiagonalIndexReturnType { typedef const Diagonal<const Derived,Index> Type; };
 
     template<int Index>
     EIGEN_DEVICE_FUNC
-    Diagonal<Derived, Index> diagonal();
+    typename DiagonalIndexReturnType<Index>::Type diagonal();
 
     template<int Index>
     EIGEN_DEVICE_FUNC
-    const Diagonal<const Derived, Index> diagonal() const;
+    typename ConstDiagonalIndexReturnType<Index>::Type diagonal() const;
+
+    typedef Diagonal<Derived,DynamicIndex> DiagonalDynamicIndexReturnType;
+    typedef typename internal::add_const<Diagonal<const Derived,DynamicIndex> >::type ConstDiagonalDynamicIndexReturnType;
 
     EIGEN_DEVICE_FUNC
-    Diagonal<Derived, DynamicIndex> diagonal(Index index);
+    DiagonalDynamicIndexReturnType diagonal(Index index);
     EIGEN_DEVICE_FUNC
-    const Diagonal<const Derived, DynamicIndex> diagonal(Index index) const;
+    ConstDiagonalDynamicIndexReturnType diagonal(Index index) const;
 
     template<unsigned int Mode> struct TriangularViewReturnType { typedef TriangularView<Derived, Mode> Type; };
     template<unsigned int Mode> struct ConstTriangularViewReturnType { typedef const TriangularView<const Derived, Mode> Type; };
@@ -364,17 +368,8 @@ template<typename Derived> class MatrixBase
 
 /////////// SVD module ///////////
 
-    template<int Options = 0>
-    inline JacobiSVD<PlainObject, Options> jacobiSvd() const;
-    template<int Options = 0>
-    EIGEN_DEPRECATED
-    inline JacobiSVD<PlainObject, Options> jacobiSvd(unsigned int computationOptions) const;
-
-    template<int Options = 0>
-    inline BDCSVD<PlainObject, Options> bdcSvd() const;
-    template<int Options = 0>
-    EIGEN_DEPRECATED
-    inline BDCSVD<PlainObject, Options> bdcSvd(unsigned int computationOptions) const;
+    inline JacobiSVD<PlainObject> jacobiSvd(unsigned int computationOptions = 0) const;
+    inline BDCSVD<PlainObject>    bdcSvd(unsigned int computationOptions = 0) const;
 
 /////////// Geometry module ///////////
 
