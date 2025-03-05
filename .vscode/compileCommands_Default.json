@@ -3,7 +3,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Classes\\PicoCreateSessionCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -11,7 +11,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Classes\\PicoFindSessionsCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -19,7 +19,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Classes\\PicoNetConnection.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -27,7 +27,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Classes\\PicoNetDriver.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -35,7 +35,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Classes\\PicoUpdateSessionCallbackProxy.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -43,7 +43,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\OnlineSubsystemPico.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -51,7 +51,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\OnlineSubsystemPico_APL.xml",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -59,7 +59,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\ApplicationLifecycleInterface.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -67,7 +67,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\IPAddressPico.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -75,7 +75,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineAchievementsInterfacePico.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -83,7 +83,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineAchievementsInterfacePico.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -91,7 +91,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineFriendsInterfacePico.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -99,7 +99,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineFriendsInterfacePico.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -107,7 +107,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineIdentityPico.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -115,7 +115,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineIdentityPico.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -123,7 +123,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineLeaderboardInterfacePico.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -131,7 +131,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineLeaderboardInterfacePico.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -139,7 +139,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineMessageMultiTaskPico.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -147,7 +147,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineMessageMultiTaskPico.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -155,7 +155,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineMessageTaskManagerPico.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -163,7 +163,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlinePicoFunctionLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -171,7 +171,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlinePicoSettings.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -179,7 +179,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlinePicoSettings.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -187,7 +187,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlinePicoSettingsCustomization.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -195,7 +195,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlinePicoSettingsCustomization.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -203,7 +203,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineSessionInterfacePico.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -211,7 +211,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineSubsystemPico.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -219,7 +219,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineSubsystemPicoManager.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -227,7 +227,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineSubsystemPicoModule.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -235,7 +235,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineSubsystemPicoPrivate.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -243,7 +243,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\OnlineSubsystemPicoTypes.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -251,7 +251,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\PICOPlatformSubsystem.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -259,7 +259,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\PicoApplicationInterface.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -267,7 +267,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\PicoCreateSessionCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -275,7 +275,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\PicoFindSessionsCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -283,7 +283,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\PicoNetConnection.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -291,7 +291,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\PicoNetDriver.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -299,7 +299,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\PicoPresenceInterface.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -307,7 +307,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\PicoUpdateSessionCallbackProxy.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -315,7 +315,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Achievements.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -323,7 +323,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_AssetFile.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -331,7 +331,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Challenges.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -339,7 +339,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_CloudStorage.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -347,7 +347,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Compliance.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -355,7 +355,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_DataStore.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -363,7 +363,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Highlight.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -371,7 +371,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_IAP.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -379,7 +379,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Leaderboard.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -387,7 +387,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Leaderboards.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -395,7 +395,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Matchmaking.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -403,7 +403,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Networking.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -411,7 +411,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Notification.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -419,7 +419,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Room.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -427,7 +427,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Speech.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -435,7 +435,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_Sport.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -443,7 +443,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\Pico_User.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -451,7 +451,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Private\\RTCPicoUserInterface.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -459,7 +459,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\ApplicationLifecycleInterface.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -467,7 +467,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\OnlineMessageTaskManagerPico.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -475,7 +475,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\OnlinePicoFunctionLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -483,7 +483,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\OnlineSessionInterfacePico.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -491,7 +491,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\OnlineSubsystemPico.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -499,7 +499,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\OnlineSubsystemPicoManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -507,7 +507,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\OnlineSubsystemPicoModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -515,7 +515,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\OnlineSubsystemPicoNames.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -523,7 +523,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\OnlineSubsystemPicoPackage.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -531,7 +531,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\PICOPlatformSubsystem.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -539,7 +539,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\PicoApplicationInterface.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -547,7 +547,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\PicoPresenceInterface.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -555,7 +555,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Achievements.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -563,7 +563,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_AssetFile.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -571,7 +571,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Challenges.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -579,7 +579,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_CloudStorage.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -587,7 +587,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Compliance.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -595,7 +595,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_DataStore.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -603,7 +603,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Highlight.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -611,7 +611,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_IAP.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -619,7 +619,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Leaderboard.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -627,7 +627,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Leaderboards.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -635,7 +635,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Matchmaking.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -643,7 +643,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Networking.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -651,7 +651,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Notification.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -659,7 +659,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Room.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -667,7 +667,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Speech.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -675,7 +675,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_Sport.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -683,7 +683,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\Pico_User.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -691,71 +691,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\OnlineSubsystemPICO\\Source\\OnlineSubsystemPico\\Public\\RTCPicoUserInterface.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.27.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOEnterprise\\Source\\PICOEnterprise\\PICOEnterprise.Build.cs",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOEnterprise.40.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOEnterprise\\Source\\PICOEnterprise\\PICOEnterprise_UPL.xml",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOEnterprise.40.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOEnterprise\\Source\\PICOEnterprise\\Private\\PICOEnterprise.cpp",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOEnterprise.40.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOEnterprise\\Source\\PICOEnterprise\\Private\\PXR_EnterpriseAPI.cpp",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOEnterprise.40.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOEnterprise\\Source\\PICOEnterprise\\Private\\PXR_InterfaceWrapper.cpp",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOEnterprise.40.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOEnterprise\\Source\\PICOEnterprise\\Private\\PXR_InterfaceWrapper.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOEnterprise.40.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOEnterprise\\Source\\PICOEnterprise\\Public\\PICOEnterprise.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOEnterprise.40.rsp"
-		],
-		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOEnterprise\\Source\\PICOEnterprise\\Public\\PXR_EnterpriseAPI.h",
-		"arguments": [
-			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOEnterprise.40.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\OnlineSubsystemPico.38.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -763,7 +699,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPEditor\\PICOXRDPEditor.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.37.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.48.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -771,7 +707,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPEditor\\Private\\PXR_DPEditor.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.37.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.48.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -779,7 +715,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPEditor\\Private\\PXR_DPEditorCommands.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.37.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.48.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -787,7 +723,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPEditor\\Private\\PXR_DPEditorCommands.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.37.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.48.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -795,7 +731,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPEditor\\Private\\PXR_DPEditorSettings.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.37.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.48.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -803,7 +739,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPEditor\\Private\\PXR_DPEditorStyle.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.37.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.48.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -811,7 +747,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPEditor\\Private\\PXR_DPEditorStyle.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.37.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.48.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -819,7 +755,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPEditor\\Public\\PXR_DPEditor.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.37.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.48.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -827,7 +763,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPEditor\\Public\\PXR_DPEditorSettings.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.37.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPEditor.48.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -835,7 +771,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPHMD\\PICOXRDPHMD.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.36.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.47.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -843,7 +779,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPHMD\\Private\\PXR_DPHMD.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.36.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.47.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -851,7 +787,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPHMD\\Private\\PXR_DPHMD.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.36.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.47.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -859,7 +795,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPHMD\\Private\\PXR_DPManager.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.36.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.47.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -867,7 +803,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPHMD\\Private\\PXR_DPSettings.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.36.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.47.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -875,7 +811,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPHMD\\Private\\PXR_DPStereoLayers.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.36.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.47.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -883,7 +819,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPHMD\\Private\\PXR_Log.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.36.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.47.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -891,7 +827,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPHMD\\Public\\IPXR_DPModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.36.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.47.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -899,7 +835,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPHMD\\Public\\PXR_DPManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.36.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.47.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -907,7 +843,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPHMD\\Public\\PXR_DPSettings.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.36.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPHMD.47.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -915,7 +851,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPInput\\PICOXRDPInput.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.35.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -923,7 +859,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPInput\\Private\\PXR_DPInput.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.35.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -931,7 +867,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPInput\\Private\\PXR_DPInput.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.35.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -939,7 +875,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPInput\\Private\\PXR_DPInputModule.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.35.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -947,7 +883,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPInput\\Private\\PXR_DPInputModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.35.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -955,7 +891,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPInput\\Private\\PXR_DPInputState.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.35.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -963,7 +899,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPInput\\Private\\PXR_DPInputState.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.35.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -971,7 +907,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOLivePreview\\Source\\PICOXRDPInput\\Public\\IPXR_DPInputModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.35.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRDPInput.46.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -979,7 +915,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREditor\\PICOXREditor.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.45.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.31.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -987,7 +923,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREditor\\Private\\PXR_Editor.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.45.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.31.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -995,7 +931,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREditor\\Private\\PXR_EditorCommands.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.45.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.31.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1003,7 +939,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREditor\\Private\\PXR_EditorCommands.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.45.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.31.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1011,7 +947,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREditor\\Private\\PXR_EditorSettings.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.45.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.31.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1019,7 +955,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREditor\\Private\\PXR_EditorStyle.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.45.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.31.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1027,7 +963,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREditor\\Private\\PXR_EditorStyle.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.45.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.31.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1035,7 +971,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREditor\\Public\\PXR_Editor.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.45.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.31.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1043,7 +979,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREditor\\Public\\PXR_EditorSettings.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.45.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREditor.31.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1051,7 +987,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREyeTracker\\PICOXREyeTracker.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREyeTracker.43.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREyeTracker.29.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1059,7 +995,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXREyeTracker\\Private\\PICOXREyeTracker.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREyeTracker.43.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXREyeTracker.29.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1067,7 +1003,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\PICOXRHMD.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1075,7 +1011,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\PICOXR_UPL.xml",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1083,7 +1019,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PICO_MRCSceneCapture2D.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1091,7 +1027,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_BoundarySystem.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1099,7 +1035,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_BoundarySystem.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1107,7 +1043,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_Cubemap.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1115,7 +1051,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_DelayDeleteLayer.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1123,7 +1059,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_DelayDeleteLayer.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1131,7 +1067,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_EventManager.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1139,7 +1075,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_EventManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1147,7 +1083,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_FoveatedRendering.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1155,7 +1091,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_FoveatedRendering.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1163,7 +1099,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_GameFrame.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1171,7 +1107,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_GameFrame.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1179,7 +1115,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMD.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1187,7 +1123,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMD.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1195,7 +1131,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDFunctionLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1203,7 +1139,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDModule.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1211,7 +1147,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1219,7 +1155,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDPrivate.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1227,7 +1163,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDPrivate.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1235,7 +1171,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDPrivateRHI.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1243,7 +1179,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDRenderBridge.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1251,7 +1187,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDRenderBridge.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1259,7 +1195,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDRenderBridge_OpenGL.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1267,7 +1203,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDRenderBridge_Vulkan.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1275,7 +1211,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDRuntimeSettings.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1283,7 +1219,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDSettings.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1291,7 +1227,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_HMDSettings.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1299,7 +1235,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_Log.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1307,7 +1243,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_PluginWrapper.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1315,7 +1251,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_PluginWrapper.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1323,7 +1259,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_Shaders.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1331,7 +1267,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_Splash.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1339,7 +1275,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_Splash.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1347,7 +1283,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_StereoLayer.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1355,7 +1291,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_StereoLayer.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1363,7 +1299,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_Utils.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1371,7 +1307,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_Utils.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1379,7 +1315,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_VulkanExtensions.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1387,7 +1323,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Private\\PXR_VulkanExtensions.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1395,7 +1331,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Public\\IPXR_HMDModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1403,7 +1339,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Public\\PICO_MRCSceneCapture2D.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1411,7 +1347,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Public\\PXR_Cubemap.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1419,7 +1355,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Public\\PXR_HMDFunctionLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1427,7 +1363,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Public\\PXR_HMDRuntimeSettings.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1435,7 +1371,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Public\\PXR_HMDTypes.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1443,7 +1379,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRHMD\\Public\\PXR_Shaders.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.41.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRHMD.27.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1451,7 +1387,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\PICOXRInput.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1459,7 +1395,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\IPXR_HandTracker.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1467,7 +1403,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_HandComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1475,7 +1411,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_HandComponent.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1483,7 +1419,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_Input.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1491,7 +1427,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_Input.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1499,7 +1435,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_InputFunctionLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1507,7 +1443,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_InputModule.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1515,7 +1451,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_InputModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1523,7 +1459,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_InputState.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1531,7 +1467,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_InputState.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1539,7 +1475,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_PICOXRPawn.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1547,7 +1483,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Private\\PXR_PICOXRPawn.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1555,7 +1491,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Public\\IPXR_InputModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1563,7 +1499,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRInput\\Public\\PXR_InputFunctionLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.42.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRInput.28.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1571,7 +1507,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\PICOXRMR.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1579,7 +1515,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Private\\PXR_AnchorComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1587,7 +1523,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Private\\PXR_MRAsyncActions.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1595,7 +1531,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Private\\PXR_MRFunctionLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1603,7 +1539,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Private\\PXR_MRModule.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1611,7 +1547,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Private\\PXR_MRModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1619,7 +1555,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Private\\PXR_ProviderManager.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1627,7 +1563,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Private\\PXR_ProviderManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1635,7 +1571,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Private\\PXR_SpatialMeshActor.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1643,7 +1579,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Private\\PXR_SpatialMeshComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1651,7 +1587,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Public\\IPXR_MRModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1659,7 +1595,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Public\\PXR_AnchorComponent.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1667,7 +1603,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Public\\PXR_MRAsyncActions.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1675,7 +1611,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Public\\PXR_MRFunctionLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1683,7 +1619,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Public\\PXR_MRTypes.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1691,7 +1627,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Public\\PXR_SpatialMeshActor.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1699,7 +1635,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMR\\Public\\PXR_SpatialMeshComponent.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.46.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMR.32.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1707,7 +1643,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\PICOXRMotionTracking.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1715,7 +1651,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Private\\PXR_EyeTrackingComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1723,7 +1659,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Private\\PXR_FaceTrackingComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1731,7 +1667,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Private\\PXR_MorphTargetsManager.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1739,7 +1675,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Private\\PXR_MotionTracking.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1747,7 +1683,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Private\\PXR_MotionTrackingFunctionLibrary.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1755,7 +1691,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Private\\PXR_MotionTrackingModule.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1763,7 +1699,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Private\\PXR_MotionTrackingModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1771,7 +1707,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Private\\PXR_MotionTrackingTypes.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1779,7 +1715,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Public\\IPXR_MotionTrackingModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1787,7 +1723,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Public\\PXR_EyeTrackingComponent.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1795,7 +1731,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Public\\PXR_FaceTrackingComponent.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1803,7 +1739,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Public\\PXR_MorphTargetsManager.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1811,7 +1747,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Public\\PXR_MotionTracking.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1819,7 +1755,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Public\\PXR_MotionTrackingFunctionLibrary.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1827,7 +1763,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Public\\PXR_MotionTrackingTypes.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1835,7 +1771,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PICOXR\\Source\\PICOXRMotionTracking\\Public\\PXR_MotionTrackingUtility.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.44.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PICOXRMotionTracking.30.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1843,7 +1779,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudioEditor\\PicoSpatialAudioEditor.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.51.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.50.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1851,7 +1787,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudioEditor\\Private\\PicoSpatialAudioEditorModule.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.51.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.50.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1859,7 +1795,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudioEditor\\Private\\PicoSpatialAudioSceneMaterialSettingsFactory.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.51.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.50.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1867,7 +1803,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudioEditor\\Private\\PicoSpatializationSourceSettingsFactory.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.51.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.50.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1875,7 +1811,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudioEditor\\Public\\PicoSpatialAudioEditorModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.51.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.50.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1883,7 +1819,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudioEditor\\Public\\PicoSpatialAudioSceneMaterialSettingsFactory.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.51.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.50.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1891,7 +1827,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudioEditor\\Public\\PicoSpatializationSourceSettingsFactory.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.51.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudioEditor.50.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1899,7 +1835,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\PicoSpatialAudio.Build.cs",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1907,7 +1843,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\PicoSpatialAudio_APL.xml",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1915,7 +1851,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoAmbisonicsRenderer.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1923,7 +1859,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoAmbisonicsRenderer.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1931,7 +1867,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoAmbisonicsSettings.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1939,7 +1875,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioEngine\\PXR_PluginWrapper.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1947,7 +1883,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioEngine\\PXR_PluginWrapper.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1955,7 +1891,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioEngine\\PicoSpatialAudioEventTracker.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1963,7 +1899,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioEngine\\PicoSpatialAudioEventTracker.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1971,7 +1907,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioEngine\\PxrAudioSpatializerApi.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1979,7 +1915,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioEngine\\PxrAudioSpatializerApiNative.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1987,7 +1923,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioEngine\\PxrAudioSpatializerApiNative.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -1995,7 +1931,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioEnums.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2003,7 +1939,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioModule.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2011,7 +1947,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioSceneGeometryComponent.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2019,7 +1955,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioSceneMaterialSettings.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2027,7 +1963,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatialAudioSettings.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2035,7 +1971,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatializationSourceDirectivityVisualizer.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2043,7 +1979,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PicoSpatializationSourceSettings.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2051,7 +1987,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PxrAudioSpatializerCommonUtils.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2059,7 +1995,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PxrAudioSpatializerCommonUtils.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2067,7 +2003,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PxrAudioSpatializerContextSingleton.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2075,7 +2011,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PxrAudioSpatializerContextSingleton.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2083,7 +2019,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PxrAudioSpatializerListener.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2091,7 +2027,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PxrAudioSpatializerListener.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2099,7 +2035,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PxrAudioSpatializerReverb.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2107,7 +2043,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PxrAudioSpatializerReverb.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2115,7 +2051,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PxrAudioSpatializerSpatialization.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2123,7 +2059,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Private\\PxrAudioSpatializerSpatialization.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2131,7 +2067,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Public\\PicoAmbisonicsSettings.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2139,7 +2075,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Public\\PicoSpatialAudioModule.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2147,7 +2083,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Public\\PicoSpatialAudioSceneGeometryComponent.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2155,7 +2091,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Public\\PicoSpatialAudioSceneMaterialSettings.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2163,7 +2099,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Public\\PicoSpatialAudioSettings.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2171,7 +2107,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Public\\PicoSpatializationSourceDirectivityVisualizer.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2179,7 +2115,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\Public\\PicoSpatializationSourceSettings.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2187,7 +2123,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\include\\pxr_audio_spatializer.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2195,7 +2131,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\include\\pxr_audio_spatializer_channel_config.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2203,7 +2139,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\include\\pxr_audio_spatializer_types.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2211,7 +2147,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\libs\\android\\arm64-v8a\\libPicoSpatializerNative.so",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2219,7 +2155,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\libs\\android\\armeabi-v7a\\libPicoSpatializerNative.so",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2227,7 +2163,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\libs\\mac\\libPicoSpatializerNative.dylib",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2235,7 +2171,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\libs\\windows\\dll\\PicoSpatializerNative.dll",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -2243,7 +2179,7 @@
 		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Plugins\\PicoSpatialAudio\\Source\\PicoSpatialAudio\\libs\\windows\\dll\\PicoSpatializerNative.lib",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.50.rsp"
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\PicoSpatialAudio.49.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
@@ -5576,7 +5512,7 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Source\\VisionScopePro\\MyClass.cpp",
+		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Source\\VisionScopePro\\Private\\NASAGameInstance.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
 			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\VisionScopePro.1.rsp"
@@ -5584,7 +5520,47 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
 	},
 	{
-		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Source\\VisionScopePro\\MyClass.h",
+		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Source\\VisionScopePro\\Private\\NASATestDescriptionWidget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\VisionScopePro.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Source\\VisionScopePro\\Private\\NASAUserWidget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\VisionScopePro.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Source\\VisionScopePro\\Public\\AstronautProfile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\VisionScopePro.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Source\\VisionScopePro\\Public\\NASAGameInstance.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\VisionScopePro.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Source\\VisionScopePro\\Public\\NASATestDescriptionWidget.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\VisionScopePro.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\Source\\VisionScopePro\\Public\\NASAUserWidget.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
 			"@Z:\\UnrealProjects\\VisionScopePro\\VisionScopePro\\.vscode\\compileCommands_Default\\VisionScopePro.1.rsp"

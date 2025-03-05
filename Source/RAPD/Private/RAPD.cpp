@@ -16,4 +16,4 @@ void FRAPDModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 
-IMPLEMENT_MODULE( FRAPDModule, RAPD );
+IMPLEMENT_MODULE(FRAPDModule, RAPD);
