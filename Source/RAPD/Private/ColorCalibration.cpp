@@ -102,7 +102,7 @@ void UColorCalibration::readPrimariesFromCSV(FString csv_filename, TArray<FColor
 	subject_responses.Empty();
 	//subject_responses.Add("Time, Confusion Line, Direction, Response, Threshold, Correct");
 	subject_responses.Add("Patient Input,Patient Response,v_prime_w,orientation,u_prime_w,saturation,Number of Reversals,Index Trial,Threshold,Decreasing Parameter Rate,ConditionName,az");
-	FString file_path = FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()) + "/Inputs/" + csv_filename;
+	FString file_path = FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()) + "Inputs/" + csv_filename;
 	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, file_path);
 	LoadTextFromFile(file_path, TextArray);
 	for (int i = 1; i < TextArray.Num(); i++)
@@ -337,7 +337,7 @@ void UColorCalibration::TrivectorTestStimuli(int& confusion_line, int& new_direc
 	confusion_line = RandomStream.RandRange(0, CONFUSION_ALONG - 1);//FMath::CeilToInt(CONFUSION_ALONG * FMath::FRand())-1;
 	if (all_test_done == false) {
 		if (test_done[confusion_line] == true) {
-			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, FString::Printf(TEXT("Test done!")));
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::White, FString::Printf(TEXT("Test done!")));
 			for (int i = 0; i < CONFUSION_ALONG; i++) {
 				if (test_done[i] == false) {
 					confusion_line = i;

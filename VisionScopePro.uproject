@@ -41,15 +41,6 @@
 			]
 		},
 		{
-			"Name": "PICOXR",
-			"Enabled": true,
-			"MarketplaceURL": "https://publish.unrealengine.com/v3/edit-product/7932d7fc2aad4216b1b01644950f6fcc",
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
-		},
-		{
 			"Name": "OnlineSubsystemPico",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6b674b5eed7343eda5d3f2ab8030b50f"
@@ -59,11 +50,31 @@
 			"Enabled": true
 		},
 		{
+			"Name": "PICOXR",
+			"Enabled": true,
+			"MarketplaceURL": "https://publish.unrealengine.com/v3/edit-product/7932d7fc2aad4216b1b01644950f6fcc",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Android"
+			]
+		},
+		{
 			"Name": "PICOEnterprise",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Android"
+			]
+		},
+		{
+			"Name": "PICOOpenXR",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/2debc028cd90414f97f308c74a3d6a32",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac"
 			]
 		}
 	],

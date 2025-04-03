@@ -1,0 +1,9 @@
+{
+	"BuildId": "27405482",
+	"Modules": 
+	{
+		"PICOXRDPEditor": "UnrealEditor-PICOXRDPEditor.dll",
+		"PICOXRDPHMD": "UnrealEditor-PICOXRDPHMD.dll",
+		"PICOXRDPInput": "UnrealEditor-PICOXRDPInput.dll"
+	}
+}

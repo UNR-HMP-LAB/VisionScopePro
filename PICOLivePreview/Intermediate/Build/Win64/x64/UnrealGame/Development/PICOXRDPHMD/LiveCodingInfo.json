@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PICOXRDPHMD.cpp.obj": [
+			"PICOXRDPHMD.init.gen.cpp.obj",
+			"PXR_DPManager.gen.cpp.obj",
+			"PXR_DPSettings.gen.cpp.obj",
+			"PXR_DPHMD.cpp.obj",
+			"PXR_DPManager.cpp.obj",
+			"PXR_DPSettings.cpp.obj",
+			"PXR_DPStereoLayers.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\intermediate\\build\\win64\\x64\\unrealgame\\development\\picoenterprise\\module.picoenterprise.2.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\intermediate\\build\\win64\\x64\\myproject2vr2pico\\development\\engine\\sharedpch.engine.cpp17.h.pch",
+        "Includes": [
+            "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\intermediate\\build\\win64\\x64\\unrealgame\\development\\picoenterprise\\definitions.picoenterprise.h",
+            "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\source\\picoenterprise\\private\\pico_enterprisefunctionlibrary.cpp",
+            "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\source\\picoenterprise\\public\\pico_enterprisefunctionlibrary.h",
+            "d:\\epicgames\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\texturerendertarget2d.h",
+            "d:\\epicgames\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\texturerendertarget.h",
+            "d:\\epicgames\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\texturerendertarget.generated.h",
+            "d:\\epicgames\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\texturerendertarget2d.generated.h",
+            "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\intermediate\\build\\win64\\unrealgame\\inc\\picoenterprise\\uht\\pico_enterprisefunctionlibrary.generated.h",
+            "d:\\epicgames\\ue_5.3\\engine\\source\\runtime\\headmounteddisplay\\public\\ixrtrackingsystem.h",
+            "d:\\epicgames\\ue_5.3\\engine\\source\\runtime\\headmounteddisplay\\public\\headmounteddisplaytypes.h",
+            "d:\\epicgames\\ue_5.3\\engine\\source\\runtime\\headmounteddisplay\\public\\imotioncontroller.h",
+            "d:\\epicgames\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\headmounteddisplay\\uht\\imotioncontroller.generated.h",
+            "d:\\epicgames\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\headmounteddisplay\\uht\\headmounteddisplaytypes.generated.h",
+            "d:\\epicgames\\ue_5.3\\engine\\source\\runtime\\headmounteddisplay\\public\\iidentifiablexrdevice.h",
+            "d:\\epicgames\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\headmounteddisplay\\uht\\iidentifiablexrdevice.generated.h",
+            "d:\\epicgames\\ue_5.3\\engine\\source\\runtime\\headmounteddisplay\\public\\ixrinput.h",
+            "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\source\\picoenterprise\\private\\pico_enterpriseinterfacewrapper.h",
+            "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\libs\\include\\pxr_enterpriseinterface.h",
+            "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\libs\\include\\pxr_enterprisetypes.h",
+            "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\source\\picoenterprise\\private\\pico_enterpriseinterfacewrapper.cpp",
+            "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\source\\picoenterprise\\private\\pico_enterprisemodule.cpp",
+            "d:\\users\\tavak\\documents\\unreal projects\\myproject2vr2pico\\plugins\\picoenterprise\\source\\picoenterprise\\public\\pico_enterprisemodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

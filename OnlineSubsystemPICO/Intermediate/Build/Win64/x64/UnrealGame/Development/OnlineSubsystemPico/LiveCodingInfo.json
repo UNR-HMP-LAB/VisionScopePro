@@ -1,0 +1,97 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineSubsystemPico.1.cpp.obj": [
+			"OnlinePicoFunctionLibrary.gen.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.2.cpp.obj": [
+			"OnlinePicoSettings.gen.cpp.obj",
+			"OnlineSubsystemPico.init.gen.cpp.obj",
+			"OnlineSubsystemPicoManager.gen.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.3.cpp.obj": [
+			"OnlineSubsystemPicoNames.gen.cpp.obj",
+			"PicoCreateSessionCallbackProxy.gen.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.4.cpp.obj": [
+			"PicoFindSessionsCallbackProxy.gen.cpp.obj",
+			"PicoNetConnection.gen.cpp.obj",
+			"PicoNetDriver.gen.cpp.obj",
+			"PICOPlatformSubsystem.gen.cpp.obj",
+			"PicoUpdateSessionCallbackProxy.gen.cpp.obj",
+			"Pico_Achievements.gen.cpp.obj",
+			"Pico_AssetFile.gen.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.5.cpp.obj": [
+			"Pico_Challenges.gen.cpp.obj",
+			"Pico_CloudStorage.gen.cpp.obj",
+			"Pico_Compliance.gen.cpp.obj",
+			"Pico_DataStore.gen.cpp.obj",
+			"Pico_Highlight.gen.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.6.cpp.obj": [
+			"Pico_IAP.gen.cpp.obj",
+			"Pico_Leaderboards.gen.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.7.cpp.obj": [
+			"Pico_Matchmaking.gen.cpp.obj",
+			"Pico_Networking.gen.cpp.obj",
+			"Pico_Notification.gen.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.8.cpp.obj": [
+			"Pico_Room.gen.cpp.obj",
+			"Pico_Speech.gen.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.9.cpp.obj": [
+			"Pico_Sport.gen.cpp.obj",
+			"Pico_User.gen.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.10.cpp.obj": [
+			"RTCPicoUserInterface.gen.cpp.obj",
+			"ApplicationLifecycleInterface.cpp.obj",
+			"OnlineAchievementsInterfacePico.cpp.obj",
+			"OnlineFriendsInterfacePico.cpp.obj",
+			"OnlineIdentityPico.cpp.obj",
+			"OnlineLeaderboardInterfacePico.cpp.obj",
+			"OnlineMessageMultiTaskPico.cpp.obj",
+			"OnlineMessageTaskManagerPico.cpp.obj",
+			"OnlinePicoFunctionLibrary.cpp.obj",
+			"OnlinePicoSettings.cpp.obj",
+			"OnlinePicoSettingsCustomization.cpp.obj",
+			"OnlineSessionInterfacePico.cpp.obj",
+			"OnlineSubsystemPico.cpp.obj",
+			"OnlineSubsystemPicoManager.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.11.cpp.obj": [
+			"OnlineSubsystemPicoModule.cpp.obj",
+			"PicoApplicationInterface.cpp.obj",
+			"PicoCreateSessionCallbackProxy.cpp.obj",
+			"PicoFindSessionsCallbackProxy.cpp.obj",
+			"PicoNetConnection.cpp.obj",
+			"PicoNetDriver.cpp.obj",
+			"PICOPlatformSubsystem.cpp.obj",
+			"PicoPresenceInterface.cpp.obj",
+			"PicoUpdateSessionCallbackProxy.cpp.obj",
+			"Pico_Achievements.cpp.obj",
+			"Pico_AssetFile.cpp.obj",
+			"Pico_Challenges.cpp.obj",
+			"Pico_CloudStorage.cpp.obj",
+			"Pico_Compliance.cpp.obj",
+			"Pico_DataStore.cpp.obj",
+			"Pico_Highlight.cpp.obj",
+			"Pico_IAP.cpp.obj",
+			"Pico_Leaderboard.cpp.obj",
+			"Pico_Leaderboards.cpp.obj",
+			"Pico_Matchmaking.cpp.obj",
+			"Pico_Networking.cpp.obj",
+			"Pico_Notification.cpp.obj",
+			"Pico_Room.cpp.obj",
+			"Pico_Speech.cpp.obj",
+			"Pico_Sport.cpp.obj"
+		],
+		"Module.OnlineSubsystemPico.12.cpp.obj": [
+			"Pico_User.cpp.obj",
+			"RTCPicoUserInterface.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PICOEnterprise.1.cpp.obj": [
+			"PICOEnterprise.init.gen.cpp.obj",
+			"PICO_EnterpriseFunctionLibrary.gen.cpp.obj"
+		],
+		"Module.PICOEnterprise.2.cpp.obj": [
+			"PICO_EnterpriseFunctionLibrary.cpp.obj",
+			"PICO_EnterpriseInterfaceWrapper.cpp.obj",
+			"PICO_EnterpriseModule.cpp.obj"
+		]
+	}
+}
